@@ -5,6 +5,7 @@ import type { FlightOffer, FlightSlice } from "@/lib/providers/types";
 import { DataBadge, sourceKind } from "@/components/ui";
 import { formatMoney } from "@/lib/utils/money";
 import { formatDateFr, formatDuration } from "@/lib/utils/dates";
+import { googleFlightsUrl } from "@/lib/utils/googleFlights";
 
 const time = (local: string) => local.slice(11, 16);
 
@@ -74,6 +75,7 @@ export function OfferCard({ offer, highlight }: { offer: FlightOffer; highlight?
           )}
           <p className="text-xs text-muted">{formatMoney(p.perPassengerCents, p.currency)} / passager (billet)</p>
           <BookingButton offer={offer} />
+          <GoogleFlightsLink offer={offer} />
           <button type="button" className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-deep-700" aria-expanded={open} onClick={() => setOpen((v) => !v)}>
             Détails <ChevronDown size={14} className={open ? "rotate-180" : ""} />
           </button>
@@ -140,6 +142,16 @@ function BookingButton({ offer }: { offer: FlightOffer }) {
     <a href={b.url} target="_blank" rel="noopener noreferrer sponsored" className="btn-accent mt-2">
       {b.label} <ExternalLink size={14} />
       {b.type === "affiliate_redirect" && <span className="rounded bg-white/20 px-1 text-[10px]">affilié</span>}
+    </a>
+  );
+}
+
+function GoogleFlightsLink({ offer }: { offer: FlightOffer }) {
+  const url = googleFlightsUrl(offer);
+  if (!url) return null;
+  return (
+    <a href={url} target="_blank" rel="noopener noreferrer" className="mt-1 inline-flex items-center gap-1 text-xs font-semibold text-deep-700 underline">
+      Comparer sur Google Flights <ExternalLink size={12} />
     </a>
   );
 }
