@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* Palette DINO : vert sauge, vert profond, crème, blanc, accents orange. */
+@theme {
+  --color-sage-50: #f3f7f2;
+  --color-sage-100: #e4eee2;
+  --color-sage-200: #c9dcc6;
+  --color-sage-300: #a8c6a4;
+  --color-sage-400: #86ad83;
+  --color-sage-500: #6a9467;
+  --color-sage-600: #547a52;
+  --color-deep-700: #2d5a45;
+  --color-deep-800: #214636;
+  --color-deep-900: #163327;
+  --color-cream-50: #fdfbf6;
+  --color-cream-100: #f8f3e7;
+  --color-cream-200: #efe6d0;
+  --color-orange-400: #f2a15f;
+  --color-orange-500: #e8833a;
+  --color-orange-600: #cc6a24;
+  --color-ink: #1d2a24;
+  --color-muted: #5d6b63;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-display: ui-rounded, "SF Pro Rounded", "Nunito", "Segoe UI", system-ui, sans-serif;
+  --radius-xl2: 1.25rem;
+  --shadow-soft: 0 1px 2px rgb(22 51 39 / 0.05), 0 8px 24px -8px rgb(22 51 39 / 0.12);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-cream-50 text-ink antialiased;
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-orange-400);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  input, select, textarea {
+    font: inherit;
+  }
+}
+
+@utility card {
+  @apply rounded-2xl border border-sage-100 bg-white shadow-[var(--shadow-soft)];
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-deep-800 text-white hover:bg-deep-700;
+}
+@utility btn-accent {
+  @apply btn bg-orange-500 text-white hover:bg-orange-600;
+}
+@utility btn-ghost {
+  @apply btn border border-sage-200 bg-white text-deep-800 hover:bg-sage-50;
+}
+@utility btn-link {
+  @apply font-semibold text-deep-700 underline decoration-sage-300 underline-offset-4 hover:decoration-orange-500;
+}
+@utility field {
+  @apply flex flex-col gap-1 text-sm;
+  & > span {
+    @apply font-medium text-deep-800;
+  }
+}
+@utility input {
+  @apply w-full rounded-xl border border-sage-200 bg-white px-3 py-2 text-ink placeholder:text-muted/70 focus:border-sage-500 focus:outline-none;
+}
+@utility chip {
+  @apply inline-flex items-center gap-1 rounded-full border px-3 py-1 text-xs font-medium;
+}
+@utility section-title {
+  @apply text-xl font-bold text-deep-900 sm:text-2xl;
+}
+
+/* Leaflet : fond cohérent avec la palette pendant le chargement des tuiles. */
+.leaflet-container {
+  background: var(--color-sage-50);
+  font-family: var(--font-sans);
+  border-radius: 1rem;
+}
