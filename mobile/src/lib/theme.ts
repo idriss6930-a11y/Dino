@@ -1,0 +1,21 @@
+/** Palette DINO, identique au site : sauge, vert profond, crème et orange. */
+export const C = {
+  sage50: "#f3f7f2",
+  sage100: "#e4eee2",
+  sage200: "#c9dcc6",
+  sage400: "#86ad83",
+  sage500: "#6a9467",
+  sage600: "#547a52",
+  deep700: "#2d5a45",
+  deep800: "#214636",
+  deep900: "#163327",
+  cream50: "#fdfbf6",
+  cream100: "#f8f3e7",
+  orange400: "#f2a15f",
+  orange500: "#e8833a",
+  orange600: "#cc6a24",
+  ink: "#1d2a24",
+  muted: "#5d6b63",
+  white: "#ffffff",
+  danger: "#b42318",
+};
