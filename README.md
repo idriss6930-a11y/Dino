@@ -79,6 +79,13 @@ Vérifié dans l'environnement de développement :
 - DINO ne vend pas de billets : la réservation se fait chez le partenaire.
 - Pas de paiement : la formule « premium » existe dans le modèle (limites d'alertes) mais aucune facturation n'est branchée.
 
+## MoneyPrinterTurbo (projet tiers copié)
+
+Le dossier [`moneyprinterturbo/`](moneyprinterturbo/) est une copie intégrale de [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) au commit `0501fac` (5 novembre 2026), sans son historique Git. C'est un projet Python 3.11 indépendant qui génère des vidéos courtes : script écrit par un LLM, images d'archives Pexels/Pixabay, voix de synthèse, sous-titres et musique. Il ne fait pas partie de l'application Next.js : rien dans `src/` ne l'appelle, et `npm run build`, `npm test` et `npm run lint` ne le prennent pas en compte.
+
+- **Licence** : MIT, voir [moneyprinterturbo/LICENSE](moneyprinterturbo/LICENSE). Les polices `STHeiti*.ttc` (Apple) et `MicrosoftYaHei*.ttc` (Microsoft) de `resource/fonts/` ne sont pas couvertes par cette licence.
+- **Lancement** : depuis `moneyprinterturbo/`, `uv sync --frozen`, puis `sh webui.sh` pour l'interface web ou `uv run python main.py` pour l'API (documentation sur http://127.0.0.1:8080/docs). Le fichier `config.toml` est créé au premier lancement à partir de `config.example.toml` ; il faut y ajouter les clés (LLM, Pexels ou Pixabay). Détails dans [moneyprinterturbo/README-en.md](moneyprinterturbo/README-en.md).
+
 ## Documentation
 
 - [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — organisation du code, flux de données, cache, planificateur
