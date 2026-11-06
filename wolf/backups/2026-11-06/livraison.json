@@ -1,0 +1,28 @@
+{
+  "_note": "Tarifs de livraison France avant la correction du 06/11/2026 (supprimés : contredisaient « livraison incluse »).",
+  "rates": [
+    {
+      "name": "Standard",
+      "price": 7.99,
+      "condition": null
+    },
+    {
+      "name": "Standard",
+      "price": 0,
+      "condition": "total >= 65 €"
+    },
+    {
+      "name": "Express",
+      "price": 10.99,
+      "condition": null
+    }
+  ],
+  "after": [
+    {
+      "name": "Livraison standard incluse",
+      "description": "Délai estimé : 3 à 7 jours",
+      "price": 0,
+      "condition": null
+    }
+  ]
+}

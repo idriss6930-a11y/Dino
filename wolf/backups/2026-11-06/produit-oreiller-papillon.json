@@ -1,0 +1,45 @@
+{
+  "_note": "État exact du produit avant les modifications de THE WOLF du 06/11/2026 (restauration : productUpdate avec ces valeurs, productVariantsBulkReorder, inventoryItemUpdate tracked=true).",
+  "id": "gid://shopify/Product/16144569401675",
+  "seo": {
+    "title": "Oreiller papillon à mémoire de forme, livraison incluse | Nuitalys",
+    "description": "Oreiller papillon en mousse à mémoire de forme, pour dormir sur le dos ou le côté. 59 €, livraison incluse en France métropolitaine, 14 jours pour changer d'avis."
+  },
+  "descriptionHtml": "<ul>\n<li>Livraison incluse en France métropolitaine</li>\n<li>14 jours après réception pour changer d'avis</li>\n<li>Paiement par carte, Apple Pay, PayPal ou Klarna</li>\n<li>Le Duo : 99 € les deux, soit 49,50 € l'oreiller</li>\n</ul><p><strong>Un oreiller en mousse à mémoire de forme, dessiné pour ceux qui dorment sur le dos ou sur le côté.</strong> Un creux au centre pour la tête, des ailes pour le côté.</p>\n<ul>\n<li>Dimensions : 64 × 38 × 14 cm</li>\n<li>Garnissage : mousse à mémoire de forme</li>\n<li>Housse : polyester et coton, avec fermeture éclair, lavable en machine, selon la fiche du fournisseur. Suivez l'étiquette pour la température.</li>\n<li>Coloris : blanc et gris</li>\n<li>Fabriqué en Chine, expédié depuis un entrepôt situé en France</li>\n</ul>\n<p>Ce n'est pas un dispositif médical.</p>",
+  "variants": [
+    {
+      "id": "gid://shopify/ProductVariant/59130650296651",
+      "title": "1 oreiller",
+      "position": 1,
+      "price": "59.00",
+      "inventoryPolicy": "DENY",
+      "inventoryItem": {
+        "id": "gid://shopify/InventoryItem/59099067515211",
+        "tracked": true
+      },
+      "inventoryQuantity": 20
+    },
+    {
+      "id": "gid://shopify/ProductVariant/59130650329419",
+      "title": "Le Duo (2 oreillers)",
+      "position": 2,
+      "price": "99.00",
+      "inventoryPolicy": "DENY",
+      "inventoryItem": {
+        "id": "gid://shopify/InventoryItem/59099067547979",
+        "tracked": true
+      },
+      "inventoryQuantity": 10
+    }
+  ],
+  "options": [
+    {
+      "id": "gid://shopify/ProductOption/18734185677131",
+      "name": "Offre",
+      "values": [
+        "1 oreiller",
+        "Le Duo (2 oreillers)"
+      ]
+    }
+  ]
+}
