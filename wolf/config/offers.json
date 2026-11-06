@@ -1,12 +1,17 @@
 {
-  "description": "Offres à évaluer. landedCost = prix fournisseur livré client (DSers/AliExpress entrepôt France). Tant que le prix réel DSers n'est pas saisi, les coûts sont des ESTIMATIONS.",
+  "description": "Offres à évaluer. landedCost = prix fournisseur livré client. customsPerOrder = 3 € de droit + 2 € de frais par ligne expédiée hors UE. TOUS les coûts sont des ESTIMATIONS tant que le prix DSers réel n'est pas saisi (voir reports/Opportunités produits France 2026.md).",
   "offers": [
-    { "id": "pillow-1", "name": "Oreiller papillon (1)", "price": 59, "landedCost": 18, "costStatus": "estimé", "costNote": "14-22 € estimé (poids 1,2-1,5 kg, Colissimo 2026 9,59-11,19 €), prix entrepôt France non relevé" },
-    { "id": "pillow-duo", "name": "Le Duo (2 oreillers)", "price": 99, "landedCost": 36, "costStatus": "estimé", "costNote": "2 × 18 € estimés" }
+    { "id": "pillow-1", "name": "Oreiller papillon (1)", "price": 59, "landedCost": 18, "costStatus": "estimé", "costNote": "14-22 € (poids 1,2-1,5 kg, Colissimo 2026 9,59-11,19 €) ; prix entrepôt France non relevé" },
+    { "id": "pillow-duo", "name": "Le Duo (2 oreillers)", "price": 99, "landedCost": 31, "costStatus": "estimé", "costNote": "Expédition groupée ; seuil de lancement : 31 € livrés au maximum" },
+    { "id": "kit-lateral-fr", "name": "Kit dormeur latéral, stock France", "price": 84, "landedCost": 27, "costStatus": "estimé", "costNote": "Oreiller + coussin de genoux + masque 3D ; à lancer seulement si les accessoires partent de France pour 9 € de plus au maximum" },
+    { "id": "kit-lateral-cn", "name": "Kit dormeur latéral, accessoires de Chine", "price": 84, "landedCost": 27, "customsPerOrder": 10, "costStatus": "estimé", "costNote": "Repère : 2 lignes hors UE × 5 € ; deux colis à plusieurs semaines d'écart" },
+    { "id": "pilates-cn", "name": "Plan B — kit Pilates, stock Chine", "price": 39.9, "landedCost": 11, "customsPerOrder": 5, "costStatus": "estimé", "costNote": "Nouvelle boutique nécessaire" },
+    { "id": "pilates-eu", "name": "Plan B — kit Pilates, stock UE", "price": 44.9, "landedCost": 8, "costStatus": "estimé", "costNote": "Seuil de lancement : 11 € livrés TTC au maximum" },
+    { "id": "portrait", "name": "N°3 — portrait d'animal IA, toile 30 × 40", "price": 54.9, "landedCost": 31.75, "costStatus": "estimé", "costNote": "Impression UE, TVA et IA comprises ; non retournable (personnalisé) mais réimpressions" }
   ],
   "cpaScenarios": {
-    "pessimiste": { "cpa": 55, "note": "Entonnoir froid d'une boutique neuve : CPM ~10 €, CTR lien ~1,3 %, conversion ~1,4 % (research_notes/acquisition_platform_costs.md)" },
-    "réaliste": { "cpa": 40, "note": "Benchmarks coût par achat 33-48 € (e-commerce FR, Home & Garden)" },
-    "optimiste": { "cpa": 28, "note": "Après itération créative ; ou affiliation TikTok Shop (commission au lieu du CPA)" }
+    "pessimiste": { "cpa": 55, "note": "Entonnoir froid d'une boutique neuve : CPM ~10 €, CTR lien ~1,3 %, conversion ~1,4 %" },
+    "réaliste": { "cpa": 40, "note": "Coût par achat médian publié pour l'e-commerce français sur Meta : ~39 €" },
+    "optimiste": { "cpa": 28, "note": "Bas de fourchette après itération créative" }
   }
 }

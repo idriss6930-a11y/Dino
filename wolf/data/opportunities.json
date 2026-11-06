@@ -1,0 +1,1185 @@
+{
+ "description": "20 opportunités retenues après notation harmonisée (06/11/2026). Les 19 candidats écartés et leurs motifs sont dans l'annexe A du rapport.",
+ "opportunities": [
+  {
+   "id": "op-01",
+   "name": "Portrait d'animal IA sur toile 30 × 40, imprimé dans l'UE",
+   "niche": "cadeaux",
+   "scores": {
+    "demand": 13,
+    "margin": 7,
+    "adPotential": 13,
+    "competition": 4,
+    "differentiation": 6,
+    "logistics": 8,
+    "retention": 3,
+    "regulatory": 7
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 13 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 7 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 13 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 4 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 6 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 3 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 7 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 61/100 (note préliminaire du chercheur : 66). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-02",
+   "name": "Kit dormeur latéral : oreiller + coussin de genoux + masque 3D",
+   "niche": "synthèse sommeil",
+   "scores": {
+    "demand": 14,
+    "margin": 15,
+    "adPotential": 8,
+    "competition": 3,
+    "differentiation": 6,
+    "logistics": 5,
+    "retention": 2,
+    "regulatory": 7
+   },
+   "fitsNuitalys": true,
+   "evidence": [
+    {
+     "claim": "Demande : 14 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 15 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 3 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 6 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 7 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 60/100 (note préliminaire du chercheur : —). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-03",
+   "name": "Kit barre de Pilates portable",
+   "niche": "maison",
+   "scores": {
+    "demand": 13,
+    "margin": 8,
+    "adPotential": 13,
+    "competition": 5,
+    "differentiation": 7,
+    "logistics": 5,
+    "retention": 2,
+    "regulatory": 7
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 13 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 8 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 13 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 5 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 7 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 7 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 60/100 (note préliminaire du chercheur : 69). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-04",
+   "name": "Filtre de douche anti-calcaire + cartouches",
+   "niche": "maison",
+   "scores": {
+    "demand": 13,
+    "margin": 7,
+    "adPotential": 11,
+    "competition": 4,
+    "differentiation": 6,
+    "logistics": 6,
+    "retention": 5,
+    "regulatory": 5
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 13 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 7 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 11 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 4 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 6 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 6 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 5 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 57/100 (note préliminaire du chercheur : 68). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-05",
+   "name": "Tapis d'acupression + coussin",
+   "niche": "maison",
+   "scores": {
+    "demand": 12,
+    "margin": 11,
+    "adPotential": 10,
+    "competition": 5,
+    "differentiation": 6,
+    "logistics": 5,
+    "retention": 1,
+    "regulatory": 6
+   },
+   "fitsNuitalys": true,
+   "evidence": [
+    {
+     "claim": "Demande : 12 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 11 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 10 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 5 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 6 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 1 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 6 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 56/100 (note préliminaire du chercheur : 63). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-06",
+   "name": "Oreiller papillon seul, offre actuelle",
+   "niche": "sommeil",
+   "scores": {
+    "demand": 15,
+    "margin": 12,
+    "adPotential": 8,
+    "competition": 2,
+    "differentiation": 4,
+    "logistics": 6,
+    "retention": 1,
+    "regulatory": 7
+   },
+   "fitsNuitalys": true,
+   "evidence": [
+    {
+     "claim": "Demande : 15 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 12 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 2 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 4 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 6 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 1 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 7 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 55/100 (note préliminaire du chercheur : 51). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-07",
+   "name": "Bijoux de sac, dont personnalisés",
+   "niche": "tendances",
+   "scores": {
+    "demand": 11,
+    "margin": 4,
+    "adPotential": 11,
+    "competition": 4,
+    "differentiation": 7,
+    "logistics": 8,
+    "retention": 3,
+    "regulatory": 5
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 11 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 4 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 11 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 4 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 7 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 3 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 5 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 53/100 (note préliminaire du chercheur : 65). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-08",
+   "name": "Taie d'oreiller en soie",
+   "niche": "sommeil",
+   "scores": {
+    "demand": 11,
+    "margin": 5,
+    "adPotential": 9,
+    "competition": 4,
+    "differentiation": 5,
+    "logistics": 8,
+    "retention": 2,
+    "regulatory": 8
+   },
+   "fitsNuitalys": true,
+   "evidence": [
+    {
+     "claim": "Demande : 11 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 5 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 9 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 4 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 52/100 (note préliminaire du chercheur : 60). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-09",
+   "name": "Kit matcha",
+   "niche": "tendances",
+   "scores": {
+    "demand": 12,
+    "margin": 6,
+    "adPotential": 11,
+    "competition": 5,
+    "differentiation": 6,
+    "logistics": 4,
+    "retention": 3,
+    "regulatory": 5
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 12 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 6 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 11 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 5 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 6 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 4 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 3 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 5 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 52/100 (note préliminaire du chercheur : 64). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-10",
+   "name": "Bandes nasales magnétiques + recharges",
+   "niche": "sommeil",
+   "scores": {
+    "demand": 11,
+    "margin": 5,
+    "adPotential": 8,
+    "competition": 6,
+    "differentiation": 6,
+    "logistics": 8,
+    "retention": 4,
+    "regulatory": 4
+   },
+   "fitsNuitalys": true,
+   "evidence": [
+    {
+     "claim": "Demande : 11 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 5 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 8 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 6 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 6 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 4 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 4 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 52/100 (note préliminaire du chercheur : 65). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-11",
+   "name": "Masque LED pour le visage",
+   "niche": "tendances",
+   "scores": {
+    "demand": 12,
+    "margin": 15,
+    "adPotential": 10,
+    "competition": 3,
+    "differentiation": 4,
+    "logistics": 4,
+    "retention": 1,
+    "regulatory": 3
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 12 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 15 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 10 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 3 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 4 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 4 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 1 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 3 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 52/100 (note préliminaire du chercheur : 50). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-12",
+   "name": "Fontaine sans fil à détecteur + filtres",
+   "niche": "animaux",
+   "scores": {
+    "demand": 14,
+    "margin": 5,
+    "adPotential": 12,
+    "competition": 4,
+    "differentiation": 6,
+    "logistics": 3,
+    "retention": 5,
+    "regulatory": 3
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 14 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 5 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 12 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 4 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 6 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 3 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 3 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 52/100 (note préliminaire du chercheur : 62). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-13",
+   "name": "Tapis de léchage, lot de 3",
+   "niche": "animaux",
+   "scores": {
+    "demand": 11,
+    "margin": 2,
+    "adPotential": 10,
+    "competition": 4,
+    "differentiation": 6,
+    "logistics": 8,
+    "retention": 2,
+    "regulatory": 8
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 11 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 10 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 4 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 6 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 51/100 (note préliminaire du chercheur : 61). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-14",
+   "name": "Housse de banquette de voiture pour chien",
+   "niche": "animaux",
+   "scores": {
+    "demand": 11,
+    "margin": 6,
+    "adPotential": 8,
+    "competition": 5,
+    "differentiation": 7,
+    "logistics": 3,
+    "retention": 1,
+    "regulatory": 8
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 11 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 6 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 8 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 5 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 7 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 3 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 1 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 49/100 (note préliminaire du chercheur : 57). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-15",
+   "name": "Brosse autonettoyante",
+   "niche": "animaux",
+   "scores": {
+    "demand": 12,
+    "margin": 3,
+    "adPotential": 10,
+    "competition": 3,
+    "differentiation": 4,
+    "logistics": 7,
+    "retention": 1,
+    "regulatory": 8
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 12 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 3 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 10 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 3 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 4 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 7 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 1 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 48/100 (note préliminaire du chercheur : 58). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-16",
+   "name": "Fontaine à eau filaire + filtres",
+   "niche": "animaux",
+   "scores": {
+    "demand": 15,
+    "margin": 3,
+    "adPotential": 10,
+    "competition": 2,
+    "differentiation": 5,
+    "logistics": 4,
+    "retention": 5,
+    "regulatory": 4
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 15 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 3 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 10 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 2 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 5 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 4 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 5 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 4 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 48/100 (note préliminaire du chercheur : 56). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-17",
+   "name": "Rouleau anti-poils réutilisable",
+   "niche": "animaux",
+   "scores": {
+    "demand": 11,
+    "margin": 2,
+    "adPotential": 11,
+    "competition": 3,
+    "differentiation": 3,
+    "logistics": 8,
+    "retention": 1,
+    "regulatory": 8
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 11 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 11 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 3 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 3 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 1 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 47/100 (note préliminaire du chercheur : 57). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-18",
+   "name": "Masque de sommeil 3D",
+   "niche": "sommeil",
+   "scores": {
+    "demand": 11,
+    "margin": 2,
+    "adPotential": 8,
+    "competition": 3,
+    "differentiation": 5,
+    "logistics": 8,
+    "retention": 2,
+    "regulatory": 8
+   },
+   "fitsNuitalys": true,
+   "evidence": [
+    {
+     "claim": "Demande : 11 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 8 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 3 (S)",
+     "status": "sourcé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 47/100 (note préliminaire du chercheur : 55). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-19",
+   "name": "Organiseurs magnétiques",
+   "niche": "tendances",
+   "scores": {
+    "demand": 9,
+    "margin": 2,
+    "adPotential": 10,
+    "competition": 6,
+    "differentiation": 5,
+    "logistics": 5,
+    "retention": 2,
+    "regulatory": 8
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 9 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 10 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 6 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 5 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 2 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 8 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 47/100 (note préliminaire du chercheur : 60). S = sourcé, M = mixte, E = estimé."
+  },
+  {
+   "id": "op-20",
+   "name": "Nettoyeur de pattes portable",
+   "niche": "animaux",
+   "scores": {
+    "demand": 10,
+    "margin": 1,
+    "adPotential": 12,
+    "competition": 5,
+    "differentiation": 4,
+    "logistics": 6,
+    "retention": 1,
+    "regulatory": 8
+   },
+   "fitsNuitalys": false,
+   "evidence": [
+    {
+     "claim": "Demande : 10 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Marge : 1 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Publicité : 12 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Concurrence : 5 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Différenciation : 4 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Logistique : 6 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Fidélisation : 1 (E)",
+     "status": "estimé",
+     "source": "reports/Opportunités produits France 2026.md"
+    },
+    {
+     "claim": "Risque : 8 (M)",
+     "status": "à vérifier",
+     "source": "reports/Opportunités produits France 2026.md"
+    }
+   ],
+   "notes": "Note du rapport : 47/100 (note préliminaire du chercheur : 58). S = sourcé, M = mixte, E = estimé."
+  }
+ ]
+}

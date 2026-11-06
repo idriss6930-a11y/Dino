@@ -10,6 +10,25 @@ publicité TVA autoliquidée comprise, remboursements et frais fixes. Pas le chi
 > l'app Shopify en lecture (voir `.env.example`). Les coûts fournisseurs de `config/offers.json` sont des **estimations**
 > tant que le prix DSers réel n'est pas saisi.
 
+## Décision en cours
+
+**N°1 : relancer Nuitalys autour du Duo à 99 €** (l'oreiller seul à 59 € ne supporte pas la publicité payante).
+Test publicitaire plafonné du 11 au 22 novembre, décision le 23 sur un ROAS ≥ 2,5. Plan B : kit Pilates pour janvier.
+Détails : [`docs/02-selection.md`](docs/02-selection.md), chiffres : [`docs/03-business-plan.md`](docs/03-business-plan.md),
+prochaines actions : [`docs/08-plan-actions.md`](docs/08-plan-actions.md).
+
+| Document | Contenu |
+|---|---|
+| [00 — Audit](docs/00-audit.md) | Outils, accès, état réel de la boutique, problèmes et blocages |
+| [01 — Étude de marché](docs/01-etude-de-marche.md) | Méthode, contraintes 2026, les 20 opportunités ([rapport complet](reports/)) |
+| [02 — Sélection](docs/02-selection.md) | Trois finalistes, n°1 et preuves, objections, conditions et règles d'arrêt |
+| [03 — Business plan](docs/03-business-plan.md) | Économie unitaire, test, 90 jours, budget, fiscalité, risques |
+| [04 — Architecture](docs/04-architecture.md) | Composants, flux, sécurité, sauvegarde et reprise |
+| [05 — Boutique](docs/05-plan-boutique-shopify.md) | Offre, fiche produit, conformité, e-mails, canaux gratuits, mesure |
+| [06 — Publicité](docs/06-strategie-publicitaire.md) | Canaux, test Meta, angles, accroches, scripts, Google, indicateurs |
+| [07 — Automatisation](docs/07-automatisation.md) | Les 15 chantiers, règles d'alerte, exécution et journal |
+| [08 — Plan d'actions](docs/08-plan-actions.md) | Qui fait quoi, et ce qui exige votre accord |
+
 ## Démarrer
 
 ```bash
@@ -22,6 +41,7 @@ npm run simulate -- --offer pillow-duo --days 21 --budget 20 --payout 3 --oneoff
 npm run score          # classement des opportunités (data/opportunities.json)
 npm run audit          # audit de conformité de la boutique (jeton Shopify requis, ou --snapshot fichier.json)
 npm run report         # P&L quotidien + alertes de rentabilité (jeton Shopify, Meta en option)
+npm run dashboard      # tableau de bord HTML (out/dashboard.html) à partir du dernier rapport
 ```
 
 ## Organisation

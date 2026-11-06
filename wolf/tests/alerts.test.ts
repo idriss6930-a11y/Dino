@@ -41,6 +41,17 @@ describe("evaluateAlerts", () => {
     expect(alerts.find((a) => a.code === "KILL_NO_SALES")?.severity).toBe("critique");
   });
 
+  it("counts the spend since the last sale, beyond a 3-day window", () => {
+    const history = [
+      day("2026-11-05", { adSpend: 20, orders: 1, revenue: 99 }),
+      ...["06", "07", "08", "09"].map((d) => day(`2026-11-${d}`, { adSpend: 20 })),
+    ];
+    const strict = { ...thresholds, killSpendMultiple: 3 };
+    const alert = evaluateAlerts(history, strict).find((a) => a.code === "KILL_NO_SALES");
+    expect(alert?.value).toBe(80);
+    expect(evaluateAlerts(history.slice(0, 4), strict).map((a) => a.code)).not.toContain("KILL_NO_SALES");
+  });
+
   it("flags a 3-day CPA above the max CPA", () => {
     const history = [day("2026-11-10", { adSpend: 90, orders: 3, revenue: 270 })];
     expect(codes(history)).toContain("CPA_ABOVE_MAX");

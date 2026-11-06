@@ -83,12 +83,19 @@ export function evaluateAlerts(history: DailyMetrics[], t: Thresholds): Alert[] 
   const revenue3 = sum(last3, "revenue");
   const killSpend = t.killSpendMultiple * t.maxCpa;
 
-  if (orders3 === 0 && spend3 >= killSpend) {
+  // Dépense cumulée depuis la dernière vente (30 jours au plus). À CPA réel = CPA max, dépenser 3 × CPA max
+  // sans vente n'arrive qu'environ 5 fois sur 100 (loi de Poisson) : au-delà, la publicité n'est presque sûrement pas rentable.
+  const lastSale = sorted.map((d) => d.orders > 0).lastIndexOf(true);
+  const spendSinceSale = sorted
+    .slice(lastSale + 1)
+    .filter((d) => toTime(d.date) > latest - 30 * DAY_MS)
+    .reduce((total, d) => total + d.adSpend, 0);
+  if (spendSinceSale >= killSpend) {
     push({
       code: "KILL_NO_SALES",
       severity: "critique",
-      message: `${eur(spend3)} dépensés sur 3 jours sans aucune vente (seuil d'arrêt ${eur(killSpend)}) : couper la publicité testée.`,
-      value: spend3,
+      message: `${eur(spendSinceSale)} dépensés depuis la dernière vente (seuil d'arrêt ${eur(killSpend)}) : couper la publicité testée.`,
+      value: spendSinceSale,
       threshold: killSpend,
     });
   }

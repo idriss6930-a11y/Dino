@@ -1,7 +1,7 @@
 {
   "description": "Seuils des alertes. maxCpa et breakEvenRoas sont recalculés depuis l'offre principale (heroOfferId) ; les autres valeurs sont des choix de pilotage.",
-  "heroOfferId": "pillow-1",
-  "killSpendMultiple": 1.5,
+  "heroOfferId": "pillow-duo",
+  "killSpendMultiple": 3,
   "maxRefundRate": 0.08,
   "minOrdersForRefundRate": 10,
   "minSessionsForFunnelCheck": 80,

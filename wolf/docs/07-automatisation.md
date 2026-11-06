@@ -27,7 +27,7 @@ Une automatisation n'est « en place » que si elle est testée, journalisée et
 
 | Code | Déclenchement | Gravité | Action attendue |
 |---|---|---|---|
-| `KILL_NO_SALES` | 3 jours de dépense ≥ 1,5 × CPA maximal sans vente | critique | Couper la publicité testée |
+| `KILL_NO_SALES` | Dépense depuis la dernière vente ≥ 3 × CPA maximal (risque de couper à tort une pub rentable : environ 5 %) | critique | Couper la publicité testée |
 | `CPA_ABOVE_MAX` | CPA sur 3 jours > CPA maximal | alerte | Baisser le budget, changer de création ou d'audience |
 | `ROAS_BELOW_BREAKEVEN` | ROAS sur 3 jours < ROAS de rentabilité | alerte | Idem |
 | `REFUND_RATE_HIGH` | Remboursements sur 14 jours > 8 % (à partir de 10 commandes) | alerte | Contrôler produit, délais, promesse |
