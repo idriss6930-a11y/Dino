@@ -47,7 +47,7 @@ données, allégations de soulagement ou de traitement. L'audit `npm run audit` 
 |---|---|
 | Tarif de livraison aligné sur « livraison incluse » ; option express supprimée | ✅ fait le 06/11 |
 | Bloc GPSR sur chaque fiche | 🔑 données fournisseur |
-| IDU Ecomaison (literie) et Citeo (emballages) dans les CGV et les mentions légales | ✋ adhésions puis 🟢 mise à jour des pages |
+| IDU Ecomaison et Citeo : **reportés** (décision du 06/11) ; à afficher dans les CGV et les mentions légales après adhésion | Décidé |
 | Médiateur de la consommation : **reporté** (décision du 06/11) ; les CGV disent honnêtement « pas encore adhéré ». À régulariser dès les premières ventes | Décidé |
 | Coût unitaire et poids réels dans chaque variante | 🔑 prix DSers, pesée |
 | Stock : synchronisation DSers ou suivi désactivé (aujourd'hui 20 + 10 unités fictives, vente bloquée à zéro) | ✋ votre choix |

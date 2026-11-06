@@ -20,7 +20,7 @@
     "consumerMediator": 0,
     "bankAndAccounting": 5,
     "apps": 0,
-    "citeo": 11
+    "citeo": 0
   },
   "provenance": {
     "turnoverChargeRate": {
@@ -64,8 +64,8 @@
       "source": "research_notes/verifications-2026-11-06.md §2"
     },
     "citeo": {
-      "status": "probable",
-      "note": "Forfait 110 € HT/an en 2026-2027, soit 132 € TTC (TVA non récupérable en franchise).",
+      "status": "décision",
+      "note": "Reporté par décision du propriétaire le 06/11/2026 (« on y va direct »). Forfait ~110 € HT/an (132 € TTC) si adhésion ; IDU absent passible d'une amende jusqu'à 30 000 € ; statut de producteur en dropshipping non tranché.",
       "source": "research_notes/verifications-2026-11-06.md §4"
     }
   }

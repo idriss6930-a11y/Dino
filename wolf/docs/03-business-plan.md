@@ -15,7 +15,7 @@ réel et relancer les commandes avant de dépenser quoi que ce soit.
 | Remboursements | 6 % des commandes, 20 % du coût produit récupéré | Estimé |
 | Litiges bancaires | 0,5 % des commandes, 15 € de frais | Frais sourcé, taux estimé |
 | Coûts variables divers | 0,50 € par commande (service client, petits frais) | Estimé |
-| Frais fixes | 60,45 € par mois (Shopify 43,20 € TVA autoliquidée comprise, domaine 1,25 €, Citeo 11 €, banque 5 €) ; médiateur reporté (décision du 06/11) | Shopify à vérifier sur facture ; Citeo vérifié le 06/11 (probable) |
+| Frais fixes | 49,45 € par mois (Shopify 43,20 € TVA comprise, domaine 1,25 €, banque 5 €) ; médiateur et Citeo reportés (décision du 06/11) | Shopify à vérifier sur facture |
 | Éco-participation Ecomaison | ≈ 0,35 € par oreiller, coût variable | Probable (vérifié le 06/11) |
 | Coût débarqué | Oreiller 18 € ; duo 31 € (envoi groupé) ; kit stock France 27 € | **Estimé** |
 
@@ -39,16 +39,16 @@ Trois enseignements :
 ## 3. Le test de novembre (11 → 22 novembre)
 
 Budget : 32,50 € HT par jour pendant 12 jours = 390 € HT facturés, **468 € de coût réel**. Frais de départ : 0 € (pas d'échantillon, décision du 06/11).
-L'adhésion Citeo (132 € TTC par an) est comptée à part : elle est due quel que soit le produit. Versements Shopify à J+3.
+Médiateur et Citeo reportés (décision du 06/11) : aucun frais de conformité au départ. Versements Shopify à J+3.
 
 | Scénario (offre duo) | CPA | Commandes | CA conservé | Résultat net du test | Trésorerie mobilisée au pire moment |
 |---|---|---|---|---|---|
-| Pessimiste | 55 € | 7 | 656 € | **−159 €** | 241 € |
-| Réaliste | 40 € | 10 | 903 € | **−35 €** | 202 € |
-| Optimiste | 28 € | 14 | 1 289 € | **+161 €** | 235 € |
+| Pessimiste | 55 € | 7 | 656 € | **−155 €** | 236 € |
+| Réaliste | 40 € | 10 | 903 € | **−30 €** | 200 € |
+| Optimiste | 28 € | 14 | 1 289 € | **+166 €** | 234 € |
 
 Le test n'est pas fait pour gagner de l'argent : il **achète une information** (le vrai CPA, la part de duos, la conversion de la fiche)
-pour 35 à 159 € de perte selon le scénario, avant la semaine du Black Friday où la même information coûterait 60 à 116 % plus cher.
+pour 30 à 155 € de perte selon le scénario, avant la semaine du Black Friday où la même information coûterait 60 à 116 % plus cher.
 
 ## 4. Les 90 jours suivants (si le test passe : ROAS ≥ 2,5)
 
@@ -76,20 +76,21 @@ Ce n'est pas une entreprise, c'est un point de départ. Ce qui la rend rentable 
 | Poste | Montant | Quand | Votre accord |
 |---|---|---|---|
 | Échantillon | 0 € : **pas d'échantillon** (décision du 06/11) ; contrôle à distance par photos, vidéo et avis | — | Décidé |
-| Citeo (forfait 110 € HT par an, probable) ; Ecomaison ≈ 0,35 € par oreiller, payé sur déclaration | 132 € TTC | Avant le test | Oui (engagement) |
+| Citeo : **reporté** (décision du 06/11) ; Ecomaison ≈ 0,35 € par oreiller, payé après coup sur déclaration | 0 € au départ | — | Décidé |
 | Médiateur de la consommation | 0 € : **reporté** (décision du 06/11) ; obligation légale, voir les risques | Dès les premières ventes | Décidé |
 | Test publicitaire | 390 € HT facturés, 468 € réels | 11 → 22 novembre | **Oui (dépense)** |
-| Frais fixes | 60,45 € par mois | En continu | Déjà engagés |
+| Frais fixes | 49,45 € par mois | En continu | Déjà engagés |
 | Réserve de trésorerie (décalage des versements, remboursements) | 350 € | Pendant le test | — |
-| **Trésorerie à prévoir pour novembre** | **≈ 1 000 €** (test 468 €, Citeo 132 €, frais fixes 60 €, réserve de 350 € qui revient) | | |
-| **Perte si le test échoue** | **≈ 170 à 290 €** (résultat du test de −35 à −159 € + Citeo 132 €) | | |
+| **Trésorerie à prévoir pour novembre** | **≈ 870 €** (test 468 €, frais fixes 49 €, réserve de 350 € qui revient) | | |
+| **Perte si le test échoue** | **≈ 30 à 155 €** (résultat du test, frais fixes compris) | | |
 | Si le test passe : montée en charge décembre-janvier | 30 à 45 € HT par jour, soit 1 100 à 1 650 € réels par mois, autofinancés à partir du 2e mois en scénario optimiste | Décembre | Oui, palier par palier |
 
 ## 6. Cadre juridique et fiscal
 
 - Plafond de chiffre d'affaires micro (vente) : 203 100 € par an (2026-2028). Franchise de TVA : 85 000 € (tolérance 93 500 €) ;
   au-delà de 93 500 €, la TVA est due dès le jour du dépassement : les prix devront alors intégrer 20 % de TVA.
-- La TVA autoliquidée sur la publicité suppose un **numéro de TVA intracommunautaire** et une déclaration : à faire avant le test.
+- TVA sur la publicité : coût × 1,2 dans tous les cas. Le **numéro de TVA intracommunautaire** (gratuit) permet l'autoliquidation
+  prévue par la loi ; sans lui, Meta facture en principe directement la TVA française. Non bloquant pour démarrer, à régulariser vite.
 - Passage en société (EURL ou SASU à l'IS) : les cotisations porteraient sur le bénéfice et non sur le CA. Le modèle des notes
   (hypothèses non vérifiées) le rend intéressant entre 20 000 et 55 000 € de CA selon la marge : **rendez-vous expert-comptable à
   30 000 € de CA**.
@@ -117,4 +118,5 @@ Ce n'est pas une entreprise, c'est un point de départ. Ce qui la rend rentable 
 | Dépendance à un seul produit | Certaine | Élevé | Plan B Pilates prêt pour janvier |
 | Qualité jamais vue (pas d'échantillon, décision du 06/11) | Moyenne | Élevé : retours, litiges, avis négatifs | Photos et vidéo réelles demandées au fournisseur, avis clients avec photos, alerte remboursements > 8 %, premières commandes suivies une à une |
 | Absence de médiateur de la consommation (décision du 06/11) | Faible à moyenne (contrôle) | Amende administrative jusqu'à 3 000 € pour une personne physique (C. consom. L641-1) | Adhérer dès les premières ventes : ≈ 40 € HT pour 3 ans (CM2C, grille 2022) |
+| Pas d'adhésion Citeo, donc pas d'IDU affiché (décision du 06/11) | Faible à moyenne (contrôle) | Amende jusqu'à 30 000 € pour défaut d'IDU ; statut de producteur en dropshipping non tranché | Demander à Citeo si vous êtes producteur ; adhérer dès les premières ventes (≈ 132 € par an) |
 | Mesure non validée par un achat réel (décision du 06/11) | Moyenne | Moyen : campagne optimisée sur de mauvais signaux | Outil « Tester les événements » de Meta ; contrôle complet du premier achat réel |

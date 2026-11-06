@@ -32,8 +32,8 @@ envoi aux clients, publication, changement irréversible).
 | 4 | Obtenir du fournisseur : fabricant, personne responsable dans l'UE, avertissements ; publier le bloc GPSR | Vous puis THE WOLF | 🔑 puis 🟢 |
 | 5 | Fiche produit : duo présélectionné, réassurance, « pour qui », consignes de sécurité | THE WOLF | ✅ fait le 06/11 |
 | 6 | Stock affiché : suivi désactivé (décision prise) ; la rupture fournisseur est détectée par l'alerte `FULFILLMENT_DELAY` | THE WOLF | ✅ fait le 06/11 |
-| 7 | Numéro de TVA intracommunautaire (autoliquidation de la TVA sur la publicité) | Vous | ✋ démarche |
-| 8 | Adhésions Citeo et Ecomaison (IDU), puis IDU dans les CGV et les mentions légales. Médiateur reporté (décision du 06/11, risque noté au business plan) | Vous puis THE WOLF | ✋ contrats puis 🟢 |
+| 7 | Numéro de TVA intracommunautaire : gratuit, **non bloquant** (sans lui, Meta facture en principe la TVA française : même coût × 1,2) ; à demander dès que possible | Vous | Plus tard |
+| 8 | Médiateur et Citeo **reportés** (décision du 06/11, risques notés au business plan) ; Ecomaison se déclare après coup, sur les ventes réelles | Vous | Décidé |
 | 9 | Créer l'app Shopify « THE WOLF (lecture) » et me transmettre le jeton par un canal sûr (secret GitHub ou `.env`), jamais dans la conversation | Vous | 🔑 |
 | 10 | Installer pixel Meta + API Conversions ; vérifier les événements avec l'outil de test de Meta (pas d'achat test, décision du 06/11) | Vous (accès), THE WOLF (vérification) | 🔑 |
 | 11 | Vérifier Merchant Center : produit approuvé, fiches gratuites actives | Vous | 🔑 |

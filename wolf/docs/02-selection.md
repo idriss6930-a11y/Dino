@@ -56,7 +56,7 @@ sans publicité dédiée : il ne supporte que 23,46 € d'acquisition.
 2. Produit contrôlé à distance, sans échantillon (décision du 06/11) : photos et vidéo réelles demandées au fournisseur, avis clients avec photos,
    note du vendeur. Les premières commandes réelles sont suivies une à une (délai, état, retours).
 3. Bloc GPSR (fabricant, personne responsable dans l'UE, avertissements) publié sur la fiche.
-4. Numéro de TVA intracommunautaire obtenu (autoliquidation de la TVA sur la publicité).
+4. ~~Numéro de TVA intracommunautaire~~ : non bloquant (même coût × 1,2 sans lui), à demander ensuite.
 5. Pixel Meta et API Conversions installés ; événements vérifiés avec l'outil « Tester les événements » de Meta (pas d'achat test, décision du 06/11).
 
 ## Règles d'arrêt du test (11 → 22 novembre)
