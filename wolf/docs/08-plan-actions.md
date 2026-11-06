@@ -45,7 +45,7 @@ envoi aux clients, publication, changement irréversible).
 
 | # | Action | Statut |
 |---|---|---|
-| 15 | Lancer la campagne Meta à 32,50 € HT par jour, plafond 390 € HT (468 € réels) | ✋ **dépense** |
+| 15 | Lancer la campagne Meta à 32,50 € HT par jour, plafond 390 € HT (468 € réels) : **accord donné le 06/11** ; pas à pas dans `docs/10-lancement-meta.md` | Vous (accès Meta) |
 | 16 | Rapport et alertes chaque matin (`npm run report`, ou GitHub Actions une fois le dépôt dédié créé) | 🟢 avec le jeton |
 | 17 | Couper toute publicité ayant dépensé 3 × le CPA maximal sans vente | 🟢 recommandation ; ✋ l'action dans le gestionnaire de publicités vous appartient tant que je n'y ai pas accès |
 
