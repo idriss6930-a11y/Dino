@@ -15,24 +15,30 @@ envoi aux clients, publication, changement irréversible).
 | Sélection : n°1 duo Nuitalys, n°2 Pilates (plan B), n°3 portrait IA (2027) | ✅ |
 | Moteur économique, simulation de trésorerie, audit automatique, P&L quotidien, 9 alertes, connecteurs Shopify et Meta, tableau de bord | ✅ (74 tests) |
 | Business plan, architecture, plans boutique, publicité et automatisation | ✅ |
+| Vérification des coûts et des règles (médiateur, Citeo, Ecomaison, Shopify, TikTok Shop, API Meta) ; chiffres recalculés | ✅ |
+| Fiche produit repositionnée : duo en premier et présélectionné, « pour qui », consignes de sécurité, description pour les moteurs de recherche | ✅ (sauvegarde de l'ancienne version dans `backups/`) |
+| Suivi de stock fictif désactivé (20 + 10 unités inventées, risque de fausse rareté affichée) | ✅ |
+| Trois guides publiés sur le blog (dormir sur le côté, papillon ou classique, entretien) | ✅ |
+| Message fournisseur prêt (prix du duo, GPSR, stock France des accessoires) et modèles d'e-mails | ✅ |
+| Nouvel audit de la boutique en ligne : 3 constats restants, tous liés aux données du fournisseur | ✅ |
 
 ## Cette semaine (6 → 10 novembre) : préparer le test
 
 | # | Action | Qui | Statut |
 |---|---|---|---|
-| 1 | Relever dans DSers le prix livré de 1 et 2 oreillers, le délai réel et l'existence d'un coussin de genoux et d'un masque en stock France | Vous | 🔑 |
+| 1 | Envoyer au fournisseur le message de `content/fournisseur/message-fournisseur.md` et relever dans DSers le prix livré de 1 et 2 oreillers | Vous | 🔑 |
 | 2 | Saisir ces coûts dans Shopify et `config/offers.json`, relancer `npm run economics` ; **go si 2 oreillers livrés ≤ 31 €** | THE WOLF | 🟢 dès réception des prix |
 | 3 | Commander un échantillon livré à Limoges (oreiller, et accessoires s'ils existent) | Vous | ✋ achat ≈ 30-50 € |
 | 4 | Obtenir du fournisseur : fabricant, personne responsable dans l'UE, avertissements ; publier le bloc GPSR | Vous puis THE WOLF | 🔑 puis 🟢 |
-| 5 | Fiche produit : duo présélectionné, réassurance, « pour qui », FAQ ; textes de confort uniquement | THE WOLF | 🟢 (écriture soumise à votre confirmation) |
-| 6 | Décider du stock affiché : synchronisation DSers ou suivi désactivé | Vous | ✋ |
+| 5 | Fiche produit : duo présélectionné, réassurance, « pour qui », consignes de sécurité | THE WOLF | ✅ fait le 06/11 |
+| 6 | Stock affiché : suivi désactivé (décision prise) ; la rupture fournisseur est détectée par l'alerte `FULFILLMENT_DELAY` | THE WOLF | ✅ fait le 06/11 |
 | 7 | Numéro de TVA intracommunautaire (autoliquidation de la TVA sur la publicité) | Vous | ✋ démarche |
 | 8 | Adhésions Citeo et Ecomaison (IDU), médiateur de la consommation ; puis IDU et médiateur dans les CGV | Vous puis THE WOLF | ✋ contrats puis 🟢 |
 | 9 | Créer l'app Shopify « THE WOLF (lecture) » et me transmettre le jeton par un canal sûr (secret GitHub ou `.env`), jamais dans la conversation | Vous | 🔑 |
 | 10 | Installer pixel Meta + API Conversions, vérifier les événements TikTok et Google ; commande de test remboursée | Vous (accès), THE WOLF (vérification) | 🔑 ✋ |
 | 11 | Vérifier Merchant Center : produit approuvé, fiches gratuites actives | Vous | 🔑 |
-| 12 | Vérifier l'éligibilité TikTok Shop (micro-entreprise, règles d'expédition et de dropshipping) | Vous (compte), THE WOLF (analyse) | 🔑 |
-| 13 | Rédiger les brouillons : relance de panier, notifications, demande d'avis, trois articles de blog | THE WOLF | 🟢 |
+| 12 | TikTok Shop : micro-entreprise acceptée (probable), commission 9 % ; dropshipping via AliExpress **non confirmé** : lire la politique dans le Seller Center avant d'ouvrir l'affiliation | Vous | 🔑 |
+| 13 | E-mails rédigés (`content/emails/`) ; trois articles publiés ; activer la relance de panier dans Shopify Email | THE WOLF ✅ / Vous pour l'activation | ✋ activation |
 | 14 | Tourner trois vidéos selon les scripts de `06-strategie-publicitaire.md` | Vous ou un créateur rémunéré | ✋ si rémunéré |
 
 ## Test (11 → 22 novembre)

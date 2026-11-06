@@ -38,11 +38,11 @@
 | 1 | Le site promettait « livraison incluse » partout, mais la caisse facturait **7,99 €** sous 65 € d'achat (donc pour l'oreiller seul à 59 €) et proposait un « Express 10,99 € » que le fournisseur ne garantit pas | Critique : pratique commerciale trompeuse et abandon de panier | **Corrigé le 06/11** (avec votre confirmation) : un seul tarif « Livraison standard incluse », 0 €, délai estimé 3 à 7 jours. Vérifié par l'API |
 | 2 | Aucun coût unitaire saisi dans les variantes | Élevée : aucun calcul de marge possible | À faire : saisir le prix DSers livré |
 | 3 | Poids à 0 kg | Moyenne | À faire : peser un colis réel (estimation 1,2 à 1,5 kg) |
-| 4 | Stock suivi (20 + 10) avec vente bloquée à zéro sur un produit en dropshipping | Moyenne : rupture artificielle ou vente sans stock réel | À décider : synchronisation DSers ou suivi désactivé |
-| 5 | Fiche sans fabricant, personne responsable dans l'UE ni avertissements (GPSR) | Élevée : obligation légale depuis le 13/12/2024 | À faire : obtenir ces informations du fournisseur |
+| 4 | Stock suivi (20 + 10) avec vente bloquée à zéro sur un produit en dropshipping | Moyenne : rupture artificielle ou fausse rareté | **Corrigé le 06/11** : suivi désactivé |
+| 5 | Fiche sans fabricant, personne responsable dans l'UE ni avertissements (GPSR) | Élevée : obligation légale depuis le 13/12/2024 | **Avertissements ajoutés le 06/11** ; fabricant et personne responsable : à obtenir du fournisseur |
 | 6 | Responsabilité élargie du producteur : identifiant unique (IDU) Ecomaison pour la literie, Citeo pour les emballages, IDU dans les CGV | Élevée | À vérifier : adhésions non visibles dans la boutique |
 | 7 | TVA autoliquidée sur Meta, Google, TikTok et Shopify (factures d'Irlande) : non récupérable en franchise, numéro de TVA intracommunautaire nécessaire | Élevée : +20 % sur chaque euro de publicité | À traiter avant toute campagne |
-| 8 | 115 sessions les 4 et 5 novembre sans aucun ajout au panier | À qualifier | Analyser la source avant de conclure |
+| 8 | 115 sessions les 4 et 5 novembre sans aucun ajout au panier | Expliqué | **Analysé le 06/11** : 100 % directes, 105 depuis les États-Unis, 101 sur ordinateur, 9 depuis la France : pas des acheteurs |
 
 L'outil `npm run audit` reproduit automatiquement les contrôles 1 à 5 (voir `src/audit/storeAudit.ts`). Il a été testé sur l'état réel de la boutique avant et après la correction.
 
