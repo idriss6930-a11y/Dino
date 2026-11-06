@@ -28,6 +28,7 @@ prochaines actions : [`docs/08-plan-actions.md`](docs/08-plan-actions.md).
 | [06 — Publicité](docs/06-strategie-publicitaire.md) | Canaux, test Meta, angles, accroches, scripts, Google, indicateurs |
 | [07 — Automatisation](docs/07-automatisation.md) | Les 15 chantiers, règles d'alerte, exécution et journal |
 | [08 — Plan d'actions](docs/08-plan-actions.md) | Qui fait quoi, et ce qui exige votre accord |
+| [Journal de la boutique](docs/journal-boutique.md) | Chaque modification faite sur nuitalys.fr, sa raison et son retour arrière |
 
 ## Démarrer
 
