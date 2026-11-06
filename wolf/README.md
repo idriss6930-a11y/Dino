@@ -29,6 +29,7 @@ prochaines actions : [`docs/08-plan-actions.md`](docs/08-plan-actions.md).
 | [07 — Automatisation](docs/07-automatisation.md) | Les 15 chantiers, règles d'alerte, exécution et journal |
 | [08 — Plan d'actions](docs/08-plan-actions.md) | Qui fait quoi, et ce qui exige votre accord |
 | [Journal de la boutique](docs/journal-boutique.md) | Chaque modification faite sur nuitalys.fr, sa raison et son retour arrière |
+| [09 — SAV](docs/09-sav.md) | Qui fait quoi, délais, règles légales, escalade ; [réponses types](content/sav/reponses.md) |
 
 ## Démarrer
 
