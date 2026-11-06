@@ -1,0 +1,12 @@
+{
+  "description": "Offres à évaluer. landedCost = prix fournisseur livré client (DSers/AliExpress entrepôt France). Tant que le prix réel DSers n'est pas saisi, les coûts sont des ESTIMATIONS.",
+  "offers": [
+    { "id": "pillow-1", "name": "Oreiller papillon (1)", "price": 59, "landedCost": 18, "costStatus": "estimé", "costNote": "14-22 € estimé (poids 1,2-1,5 kg, Colissimo 2026 9,59-11,19 €), prix entrepôt France non relevé" },
+    { "id": "pillow-duo", "name": "Le Duo (2 oreillers)", "price": 99, "landedCost": 36, "costStatus": "estimé", "costNote": "2 × 18 € estimés" }
+  ],
+  "cpaScenarios": {
+    "pessimiste": { "cpa": 55, "note": "Entonnoir froid d'une boutique neuve : CPM ~10 €, CTR lien ~1,3 %, conversion ~1,4 % (research_notes/acquisition_platform_costs.md)" },
+    "réaliste": { "cpa": 40, "note": "Benchmarks coût par achat 33-48 € (e-commerce FR, Home & Garden)" },
+    "optimiste": { "cpa": 28, "note": "Après itération créative ; ou affiliation TikTok Shop (commission au lieu du CPA)" }
+  }
+}

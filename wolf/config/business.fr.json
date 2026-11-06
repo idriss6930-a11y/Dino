@@ -1,0 +1,36 @@
+{
+  "description": "Paramètres de l'entreprise : entrepreneur individuel, micro-entreprise BIC vente, franchise en base de TVA (art. 293 B CGI). Chaque valeur porte sa source et son statut (sourcé / estimé / à vérifier).",
+  "timeZone": "Europe/Paris",
+  "params": {
+    "vatRegime": "franchise",
+    "vatRate": 0.2,
+    "turnoverChargeRate": 0.124,
+    "paymentFeePct": 0.02,
+    "paymentFeeFixed": 0.28,
+    "refundRate": 0.06,
+    "refundCostRecoveryRate": 0.2,
+    "chargebackRate": 0.005,
+    "chargebackFee": 15,
+    "otherVariableCostPerOrder": 0.5,
+    "adVatRecoverable": false
+  },
+  "fixedCostsMonthly": {
+    "shopifyBasic": 43.2,
+    "domain": 1.25,
+    "consumerMediator": 10,
+    "citeoAndEcoOrganisms": 9,
+    "bankAndAccounting": 5,
+    "apps": 0
+  },
+  "provenance": {
+    "turnoverChargeRate": { "status": "sourcé", "note": "12,3 % cotisations + 0,1 % CFP (BIC vente, 2026). +1 % si versement libératoire.", "source": "research_notes/regulation_fiscal.md §1" },
+    "adVatRecoverable": { "status": "sourcé", "note": "Autoliquidation de la TVA sur Meta/Google/TikTok/Shopify (art. 283-2 CGI), non déductible en franchise : coût pub × 1,2.", "source": "research_notes/regulation_fiscal.md §3" },
+    "paymentFeePct": { "status": "estimé", "note": "Mix supposé 70 % carte/Apple Pay (1,5 % + 0,25 €), 25 % PayPal (2,90 % + 0,35 €), 5 % Klarna (taux FR non trouvé, ~4,5 % supposé).", "source": "research_notes/acquisition_platform_costs.md (frais de paiement)" },
+    "refundRate": { "status": "estimé", "note": "Fourchette 3-12 %, milieu 6 % ; aucune référence fiable pour la literie en dropshipping.", "source": "research_notes/acquisition_platform_costs.md (remboursements)" },
+    "refundCostRecoveryRate": { "status": "estimé", "note": "Produit de literie retourné rarement revendable neuf : 20 % du coût récupéré.", "source": "hypothèse THE WOLF" },
+    "chargebackFee": { "status": "sourcé", "note": "15 € par litige, non remboursé en France même gagné.", "source": "research_notes/acquisition_platform_costs.md" },
+    "shopifyBasic": { "status": "à vérifier", "note": "36 €/mois (27 € en annuel) ; HT ou TTC non tranché → 36 × 1,2 retenu par prudence. Lire la facture Shopify.", "source": "research_notes/acquisition_platform_costs.md" },
+    "consumerMediator": { "status": "estimé", "note": "Adhésion à un médiateur de la consommation obligatoire ; coût non sourcé.", "source": "à confirmer" },
+    "citeoAndEcoOrganisms": { "status": "estimé", "note": "Citeo forfait 80-110 € HT/an sous 10 000 unités ; Ecomaison (literie) non chiffré.", "source": "research_notes/regulation_fiscal.md §8" }
+  }
+}

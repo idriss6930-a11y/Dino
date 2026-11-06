@@ -1,0 +1,56 @@
+# Modèle de workflow GitHub Actions — À DÉPLACER dans .github/workflows/ quand THE WOLF aura son propre dépôt.
+# Laissé ici volontairement inactif pour ne pas lancer de tâches dans le dépôt DINO.
+# Secrets à créer (Settings > Secrets and variables > Actions) : SHOPIFY_SHOP_DOMAIN, SHOPIFY_ADMIN_TOKEN,
+# et en option META_AD_ACCOUNT_ID, META_ACCESS_TOKEN, ALERT_WEBHOOK_URL.
+name: wolf-daily
+
+on:
+  schedule:
+    - cron: "13 6 * * *" # 07:13 heure de Paris en hiver (06:13 UTC)
+  workflow_dispatch: {}
+  push:
+    paths: ["src/**", "tests/**", "config/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+
+  daily:
+    if: github.event_name != 'push'
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Audit de la boutique
+        run: npm run audit
+        env:
+          SHOPIFY_SHOP_DOMAIN: ${{ secrets.SHOPIFY_SHOP_DOMAIN }}
+          SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+      - name: Rapport P&L et alertes
+        if: always()
+        run: npm run report -- --days 14
+        env:
+          SHOPIFY_SHOP_DOMAIN: ${{ secrets.SHOPIFY_SHOP_DOMAIN }}
+          SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+          META_AD_ACCOUNT_ID: ${{ secrets.META_AD_ACCOUNT_ID }}
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          ALERT_WEBHOOK_URL: ${{ secrets.ALERT_WEBHOOK_URL }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wolf-report
+          path: out/
+          retention-days: 90
