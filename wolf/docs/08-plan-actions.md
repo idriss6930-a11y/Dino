@@ -28,14 +28,14 @@ envoi aux clients, publication, changement irréversible).
 |---|---|---|---|
 | 1 | Envoyer au fournisseur le message de `content/fournisseur/message-fournisseur.md` et relever dans DSers le prix livré de 1 et 2 oreillers | Vous | 🔑 |
 | 2 | Saisir ces coûts dans Shopify et `config/offers.json`, relancer `npm run economics` ; **go si 2 oreillers livrés ≤ 31 €** | THE WOLF | 🟢 dès réception des prix |
-| 3 | Commander un échantillon livré à Limoges (oreiller, et accessoires s'ils existent) | Vous | ✋ achat ≈ 30-50 € |
+| 3 | Pas d'échantillon (décision du 06/11) : photos et vidéo réelles demandées au fournisseur (question ajoutée au message) | Vous | 🔑 |
 | 4 | Obtenir du fournisseur : fabricant, personne responsable dans l'UE, avertissements ; publier le bloc GPSR | Vous puis THE WOLF | 🔑 puis 🟢 |
 | 5 | Fiche produit : duo présélectionné, réassurance, « pour qui », consignes de sécurité | THE WOLF | ✅ fait le 06/11 |
 | 6 | Stock affiché : suivi désactivé (décision prise) ; la rupture fournisseur est détectée par l'alerte `FULFILLMENT_DELAY` | THE WOLF | ✅ fait le 06/11 |
 | 7 | Numéro de TVA intracommunautaire (autoliquidation de la TVA sur la publicité) | Vous | ✋ démarche |
-| 8 | Adhésions Citeo et Ecomaison (IDU), médiateur de la consommation ; puis IDU et médiateur dans les CGV | Vous puis THE WOLF | ✋ contrats puis 🟢 |
+| 8 | Adhésions Citeo et Ecomaison (IDU), puis IDU dans les CGV et les mentions légales. Médiateur reporté (décision du 06/11, risque noté au business plan) | Vous puis THE WOLF | ✋ contrats puis 🟢 |
 | 9 | Créer l'app Shopify « THE WOLF (lecture) » et me transmettre le jeton par un canal sûr (secret GitHub ou `.env`), jamais dans la conversation | Vous | 🔑 |
-| 10 | Installer pixel Meta + API Conversions, vérifier les événements TikTok et Google ; commande de test remboursée | Vous (accès), THE WOLF (vérification) | 🔑 ✋ |
+| 10 | Installer pixel Meta + API Conversions ; vérifier les événements avec l'outil de test de Meta (pas d'achat test, décision du 06/11) | Vous (accès), THE WOLF (vérification) | 🔑 |
 | 11 | Vérifier Merchant Center : produit approuvé, fiches gratuites actives | Vous | 🔑 |
 | 12 | TikTok Shop : micro-entreprise acceptée (probable), commission 9 % ; dropshipping via AliExpress **non confirmé** : lire la politique dans le Seller Center avant d'ouvrir l'affiliation | Vous | 🔑 |
 | 13 | E-mails rédigés (`content/emails/`) ; trois articles publiés ; activer la relance de panier dans Shopify Email | THE WOLF ✅ / Vous pour l'activation | ✋ activation |

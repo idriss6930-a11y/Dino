@@ -48,7 +48,7 @@ données, allégations de soulagement ou de traitement. L'audit `npm run audit` 
 | Tarif de livraison aligné sur « livraison incluse » ; option express supprimée | ✅ fait le 06/11 |
 | Bloc GPSR sur chaque fiche | 🔑 données fournisseur |
 | IDU Ecomaison (literie) et Citeo (emballages) dans les CGV et les mentions légales | ✋ adhésions puis 🟢 mise à jour des pages |
-| Médiateur de la consommation : nom et lien dans les CGV | ✋ adhésion puis 🟢 |
+| Médiateur de la consommation : **reporté** (décision du 06/11) ; les CGV disent honnêtement « pas encore adhéré ». À régulariser dès les premières ventes | Décidé |
 | Coût unitaire et poids réels dans chaque variante | 🔑 prix DSers, pesée |
 | Stock : synchronisation DSers ou suivi désactivé (aujourd'hui 20 + 10 unités fictives, vente bloquée à zéro) | ✋ votre choix |
 | Bandeau cookies : refus aussi simple que l'acceptation (CNIL) | 🟢 vérification |
@@ -78,5 +78,5 @@ données, allégations de soulagement ou de traitement. L'audit `npm run audit` 
 
 1. Pixel Meta + API Conversions via l'application officielle Meta de Shopify. 🔑 compte Business Meta.
 2. Pixel TikTok et balises Google déjà possibles via les canaux installés : vérifier les événements achat. 🔑
-3. Commande de test réelle remboursée, pour valider paiement, e-mails, DSers et événements de conversion de bout en bout. ✋
+3. Pas de commande de test (décision du 06/11) : événements vérifiés avec l'outil de test de Meta ; le premier achat réel est contrôlé de bout en bout.
 4. Jeton d'API en lecture pour THE WOLF (rapport et alertes quotidiens). 🔑

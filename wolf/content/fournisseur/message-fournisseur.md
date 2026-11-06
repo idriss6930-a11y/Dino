@@ -21,6 +21,8 @@ I sell your butterfly memory-foam pillow (64 × 38 × 14 cm, white/grey) in Fran
 4. Do you also have, **shipped from the France warehouse**: a knee pillow for side sleepers, a 3D contoured sleep mask,
    and a spare cover for this butterfly pillow? Prices with shipping, please.
 5. Can you ship **without any invoice or advertising** in the parcel?
+6. Please send **real photos and a short video** of the product as it is shipped from the France warehouse
+   (outer packaging, label, whether the pillow is vacuum-compressed, the cover and its zip).
 
 Thank you very much.
 

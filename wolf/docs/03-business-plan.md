@@ -15,7 +15,7 @@ réel et relancer les commandes avant de dépenser quoi que ce soit.
 | Remboursements | 6 % des commandes, 20 % du coût produit récupéré | Estimé |
 | Litiges bancaires | 0,5 % des commandes, 15 € de frais | Frais sourcé, taux estimé |
 | Coûts variables divers | 0,50 € par commande (service client, petits frais) | Estimé |
-| Frais fixes | 65,45 € par mois (Shopify 43,20 € TVA autoliquidée comprise, domaine 1,25 €, médiateur 5 €, Citeo 11 €, banque 5 €) | Shopify à vérifier sur facture ; médiateur et Citeo vérifiés le 06/11 (probable) |
+| Frais fixes | 60,45 € par mois (Shopify 43,20 € TVA autoliquidée comprise, domaine 1,25 €, Citeo 11 €, banque 5 €) ; médiateur reporté (décision du 06/11) | Shopify à vérifier sur facture ; Citeo vérifié le 06/11 (probable) |
 | Éco-participation Ecomaison | ≈ 0,35 € par oreiller, coût variable | Probable (vérifié le 06/11) |
 | Coût débarqué | Oreiller 18 € ; duo 31 € (envoi groupé) ; kit stock France 27 € | **Estimé** |
 
@@ -38,17 +38,17 @@ Trois enseignements :
 
 ## 3. Le test de novembre (11 → 22 novembre)
 
-Budget : 32,50 € HT par jour pendant 12 jours = 390 € HT facturés, **468 € de coût réel**. Frais de départ : 40 € (échantillon).
-Les adhésions de conformité (≈ 180 à 192 € TTC) sont comptées à part : elles sont dues quel que soit le produit. Versements Shopify à J+3.
+Budget : 32,50 € HT par jour pendant 12 jours = 390 € HT facturés, **468 € de coût réel**. Frais de départ : 0 € (pas d'échantillon, décision du 06/11).
+L'adhésion Citeo (132 € TTC par an) est comptée à part : elle est due quel que soit le produit. Versements Shopify à J+3.
 
 | Scénario (offre duo) | CPA | Commandes | CA conservé | Résultat net du test | Trésorerie mobilisée au pire moment |
 |---|---|---|---|---|---|
-| Pessimiste | 55 € | 7 | 656 € | **−201 €** | 283 € |
-| Réaliste | 40 € | 10 | 903 € | **−77 €** | 242 € |
-| Optimiste | 28 € | 14 | 1 289 € | **+119 €** | 276 € |
+| Pessimiste | 55 € | 7 | 656 € | **−159 €** | 241 € |
+| Réaliste | 40 € | 10 | 903 € | **−35 €** | 202 € |
+| Optimiste | 28 € | 14 | 1 289 € | **+161 €** | 235 € |
 
 Le test n'est pas fait pour gagner de l'argent : il **achète une information** (le vrai CPA, la part de duos, la conversion de la fiche)
-pour 77 à 201 € de perte selon le scénario, avant la semaine du Black Friday où la même information coûterait 60 à 116 % plus cher.
+pour 35 à 159 € de perte selon le scénario, avant la semaine du Black Friday où la même information coûterait 60 à 116 % plus cher.
 
 ## 4. Les 90 jours suivants (si le test passe : ROAS ≥ 2,5)
 
@@ -75,14 +75,14 @@ Ce n'est pas une entreprise, c'est un point de départ. Ce qui la rend rentable 
 
 | Poste | Montant | Quand | Votre accord |
 |---|---|---|---|
-| Échantillon (oreiller, éventuellement accessoires) | 30 à 50 € (estimé) | Immédiat | Oui (achat) |
+| Échantillon | 0 € : **pas d'échantillon** (décision du 06/11) ; contrôle à distance par photos, vidéo et avis | — | Décidé |
 | Citeo (forfait 110 € HT par an, probable) ; Ecomaison ≈ 0,35 € par oreiller, payé sur déclaration | 132 € TTC | Avant le test | Oui (engagement) |
-| Médiateur de la consommation (CM2C ou Med Conso Dev, devis à demander) | 48 à 60 € TTC | Avant le test | Oui (contrat) |
+| Médiateur de la consommation | 0 € : **reporté** (décision du 06/11) ; obligation légale, voir les risques | Dès les premières ventes | Décidé |
 | Test publicitaire | 390 € HT facturés, 468 € réels | 11 → 22 novembre | **Oui (dépense)** |
-| Frais fixes | 65,45 € par mois | En continu | Déjà engagés |
+| Frais fixes | 60,45 € par mois | En continu | Déjà engagés |
 | Réserve de trésorerie (décalage des versements, remboursements) | 350 € | Pendant le test | — |
-| **Trésorerie à prévoir pour novembre** | **≈ 1 100 €** (dont 350 € de réserve qui revient) | | |
-| **Perte si le test échoue** | **≈ 260 à 390 €** (résultat du test de −77 à −201 € + adhésions de 180 à 192 €) | | |
+| **Trésorerie à prévoir pour novembre** | **≈ 1 000 €** (test 468 €, Citeo 132 €, frais fixes 60 €, réserve de 350 € qui revient) | | |
+| **Perte si le test échoue** | **≈ 170 à 290 €** (résultat du test de −35 à −159 € + Citeo 132 €) | | |
 | Si le test passe : montée en charge décembre-janvier | 30 à 45 € HT par jour, soit 1 100 à 1 650 € réels par mois, autofinancés à partir du 2e mois en scénario optimiste | Décembre | Oui, palier par palier |
 
 ## 6. Cadre juridique et fiscal
@@ -115,3 +115,6 @@ Ce n'est pas une entreprise, c'est un point de départ. Ce qui la rend rentable 
 | Qualité ou délai fournisseur décevants | Moyenne | Élevé | Échantillon avant le test ; alerte 48 h |
 | Contrôle DGCCRF (GPSR, prix de référence, allégations) | Faible à moyenne | Élevé | Audit automatique, allégations de confort uniquement |
 | Dépendance à un seul produit | Certaine | Élevé | Plan B Pilates prêt pour janvier |
+| Qualité jamais vue (pas d'échantillon, décision du 06/11) | Moyenne | Élevé : retours, litiges, avis négatifs | Photos et vidéo réelles demandées au fournisseur, avis clients avec photos, alerte remboursements > 8 %, premières commandes suivies une à une |
+| Absence de médiateur de la consommation (décision du 06/11) | Faible à moyenne (contrôle) | Amende administrative jusqu'à 3 000 € pour une personne physique (C. consom. L641-1) | Adhérer dès les premières ventes : ≈ 40 € HT pour 3 ans (CM2C, grille 2022) |
+| Mesure non validée par un achat réel (décision du 06/11) | Moyenne | Moyen : campagne optimisée sur de mauvais signaux | Outil « Tester les événements » de Meta ; contrôle complet du premier achat réel |

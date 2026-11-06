@@ -21,7 +21,7 @@
 
 ## Le test Meta
 
-- **Prérequis** : pixel + API Conversions, achat de test validé, numéro de TVA intracommunautaire, coût réel saisi dans Shopify.
+- **Prérequis** : pixel + API Conversions, événements vérifiés avec l'outil de test de Meta, numéro de TVA intracommunautaire, coût réel saisi dans Shopify.
 - **Structure** : 1 campagne Ventes, budget de campagne 32,50 € HT par jour, ciblage large France 25-65 ans, placements automatiques,
   optimisation sur l'achat. 4 publicités, une par angle ci-dessous. Pas de ciblage d'intérêts « santé ».
 - **Arrêt** : une publicité qui a dépensé 3 × le CPA maximal (≈ 117 € HT) sans vente est coupée ; plafond de 390 € HT ;

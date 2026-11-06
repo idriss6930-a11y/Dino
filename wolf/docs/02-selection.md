@@ -53,10 +53,11 @@ sans publicité dédiée : il ne supporte que 23,46 € d'acquisition.
 ## Conditions de lancement (toutes obligatoires)
 
 1. Coût réel saisi dans Shopify : **2 oreillers livrés ≤ 31 €** (sinon revoir le prix ou le fournisseur).
-2. Échantillon reçu à Limoges : densité, odeur, reprise de forme, housse, délai réel face aux 3 à 7 jours promis, étiquetage.
+2. Produit contrôlé à distance, sans échantillon (décision du 06/11) : photos et vidéo réelles demandées au fournisseur, avis clients avec photos,
+   note du vendeur. Les premières commandes réelles sont suivies une à une (délai, état, retours).
 3. Bloc GPSR (fabricant, personne responsable dans l'UE, avertissements) publié sur la fiche.
 4. Numéro de TVA intracommunautaire obtenu (autoliquidation de la TVA sur la publicité).
-5. Pixel Meta et API Conversions installés, achat de test vérifié de bout en bout.
+5. Pixel Meta et API Conversions installés ; événements vérifiés avec l'outil « Tester les événements » de Meta (pas d'achat test, décision du 06/11).
 
 ## Règles d'arrêt du test (11 → 22 novembre)
 

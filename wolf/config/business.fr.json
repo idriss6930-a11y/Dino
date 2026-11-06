@@ -17,7 +17,7 @@
   "fixedCostsMonthly": {
     "shopifyBasic": 43.2,
     "domain": 1.25,
-    "consumerMediator": 5,
+    "consumerMediator": 0,
     "bankAndAccounting": 5,
     "apps": 0,
     "citeo": 11
@@ -59,8 +59,8 @@
       "source": "research_notes/acquisition_platform_costs.md"
     },
     "consumerMediator": {
-      "status": "probable",
-      "note": "CM2C ~40 € HT pour 3 ans (grille 2022) ; Med Conso Dev ~50 € HT/an (non confirmé). 5 €/mois retenu par prudence.",
+      "status": "décision",
+      "note": "Reporté par décision du propriétaire le 06/11/2026 (« si on récolte beaucoup, on en prendra »). Obligation légale (C. consom. L612-1) ; manquement passible d'une amende administrative jusqu'à 3 000 € pour une personne physique (L641-1). Les CGV indiquent honnêtement l'absence d'adhésion. Coût pour régulariser : ~40 € HT pour 3 ans (CM2C, grille 2022, probable).",
       "source": "research_notes/verifications-2026-11-06.md §2"
     },
     "citeo": {
