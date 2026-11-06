@@ -4,7 +4,9 @@
   "private": true,
   "description": "THE WOLF — système d'exploitation e-commerce (Nuitalys) : économie unitaire, audit boutique, P&L quotidien, alertes de rentabilité",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "test": "vitest run",
     "test:watch": "vitest",
@@ -13,7 +15,8 @@
     "score": "tsx src/cli/score.ts",
     "audit": "tsx src/cli/audit.ts",
     "report": "tsx src/cli/report.ts",
-    "simulate": "tsx src/cli/simulate.ts"
+    "simulate": "tsx src/cli/simulate.ts",
+    "dashboard": "tsx src/cli/dashboard.ts"
   },
   "dependencies": {
     "zod": "^4.6.7"
