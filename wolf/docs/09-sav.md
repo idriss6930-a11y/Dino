@@ -27,6 +27,13 @@ est branché sur votre autre boîte. Deux options :
 
 Tant que ce n'est pas fait, la tâche quotidienne surveille seulement les commandes dans Shopify.
 
+## Activer la tâche quotidienne (2 minutes, une seule fois)
+
+La tâche planifiée « SAV Nuitalys quotidien » (tous les jours à 8 h 39, heure de Paris, notification sur votre téléphone) a été
+créée le 06/11/2026 **puis mise en pause** : elle a été créée sans connecteurs, et sans Gmail ni Shopify elle ne peut rien traiter.
+Pour l'activer : claude.ai > tâches planifiées > « SAV Nuitalys quotidien » > ajouter les connecteurs **Gmail** et **Shopify** >
+activer. Ses consignes interdisent d'envoyer un e-mail, de rembourser, d'annuler ou de modifier quoi que ce soit.
+
 ## Délais de réponse
 
 | Situation | Délai visé |
