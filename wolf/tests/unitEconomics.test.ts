@@ -75,6 +75,11 @@ describe("computeUnitEconomics", () => {
     expect(ue.contributionBeforeAds).toBeCloseTo(32.549 - 0.5 - 5 - 1, 6);
   });
 
+  it("adds the eco-contribution (REP) per order to the cost base", () => {
+    const ue = computeUnitEconomics({ ...pillow, ecoContribution: 0.35 }, franchise);
+    expect(ue.contributionBeforeAds).toBeCloseTo(32.549 - 0.35, 6);
+  });
+
   it("reports a gross margin rate on net revenue", () => {
     const ue = computeUnitEconomics(pillow, franchise);
     expect(ue.grossMarginRate).toBeCloseTo((59 - 18) / 59, 6);

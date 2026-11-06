@@ -35,6 +35,13 @@ describe("fetchMetaDailySpend", () => {
     expect(new Headers(calls[0]!.init.headers).get("Authorization")).toBe("Bearer EAAtest");
   });
 
+  it("targets Graph API v26.0 when no version is configured", async () => {
+    const { calls, fetchImpl } = fakeFetch([{ status: 200, body: { data: [] } }]);
+    const { graphVersion: _ignored, ...withoutVersion } = options;
+    await fetchMetaDailySpend({ ...withoutVersion, fetchImpl });
+    expect(new URL(calls[0]!.url).pathname).toBe("/v26.0/act_123/insights");
+  });
+
   it("parses spend, delivery and purchases per day", async () => {
     const { fetchImpl } = fakeFetch([{ status: 200, body: { data: [row("2026-11-01", "12.50", "1", "59"), row("2026-11-02", "8.00")] } }]);
     const rows = await fetchMetaDailySpend({ ...options, fetchImpl });

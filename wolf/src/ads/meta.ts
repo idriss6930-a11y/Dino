@@ -3,7 +3,7 @@ import type { AdSpendRow } from "../pnl/daily";
 /**
  * Dépenses Meta (Facebook/Instagram) par jour via l'API Marketing (Insights), niveau compte publicitaire.
  * Jeton : META_ACCESS_TOKEN (utilisateur système, droit ads_read uniquement). Envoyé en en-tête, jamais dans l'URL.
- * Version : META_GRAPH_VERSION (vérifier la version en vigueur sur developers.facebook.com).
+ * Version : META_GRAPH_VERSION, v26.0 par défaut (dernière version confirmée le 06/11/2026 ; la v24.0 a expiré).
  */
 export interface MetaOptions {
   adAccountId: string;
@@ -43,7 +43,7 @@ export async function fetchMetaDailySpend(options: MetaOptions): Promise<AdSpend
   if (!options.adAccountId) throw new Error("META_AD_ACCOUNT_ID manquant");
   if (!options.accessToken) throw new Error("META_ACCESS_TOKEN manquant");
   const fetchImpl = options.fetchImpl ?? fetch;
-  const version = options.graphVersion ?? "v24.0";
+  const version = options.graphVersion ?? "v26.0";
   const first = new URL(`https://graph.facebook.com/${version}/act_${options.adAccountId.replace(/^act_/, "")}/insights`);
   first.searchParams.set("level", "account");
   first.searchParams.set("time_increment", "1");

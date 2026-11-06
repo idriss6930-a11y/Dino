@@ -45,6 +45,8 @@ export interface Offer {
   customsPerOrder?: number;
   /** Frais de port payés par le client (0 si livraison incluse). */
   shippingCharged?: number;
+  /** Éco-contribution REP par commande (Ecomaison : ~0,35 € par oreiller, à confirmer). */
+  ecoContribution?: number;
 }
 
 export interface UnitEconomics {
@@ -86,6 +88,7 @@ export function computeUnitEconomics(offer: Offer, params: BusinessParams): Unit
   assertNonNegative("packagingCost", offer.packagingCost ?? 0);
   assertNonNegative("customsPerOrder", offer.customsPerOrder ?? 0);
   assertNonNegative("shippingCharged", offer.shippingCharged ?? 0);
+  assertNonNegative("ecoContribution", offer.ecoContribution ?? 0);
   for (const key of ["vatRate", "turnoverChargeRate", "paymentFeePct", "refundRate", "refundCostRecoveryRate", "chargebackRate"] as const) {
     assertRate(key, params[key]);
   }
@@ -103,7 +106,8 @@ export function computeUnitEconomics(offer: Offer, params: BusinessParams): Unit
 
   const landedCostExpected =
     offer.landedCost - params.refundRate * params.refundCostRecoveryRate * offer.landedCost;
-  const otherCosts = (offer.packagingCost ?? 0) + (offer.customsPerOrder ?? 0) + params.otherVariableCostPerOrder;
+  const otherCosts =
+    (offer.packagingCost ?? 0) + (offer.customsPerOrder ?? 0) + (offer.ecoContribution ?? 0) + params.otherVariableCostPerOrder;
   const paymentFees = gross * params.paymentFeePct + params.paymentFeeFixed;
   const turnoverCharges = revenueKept * params.turnoverChargeRate;
   const chargebackFees = params.chargebackRate * params.chargebackFee;

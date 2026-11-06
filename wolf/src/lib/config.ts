@@ -34,6 +34,7 @@ const offersSchema = z.object({
       landedCost: z.number().min(0),
       packagingCost: z.number().min(0).optional(),
       customsPerOrder: z.number().min(0).optional(),
+      ecoContribution: z.number().min(0).optional(),
       costStatus: z.enum(["sourcé", "estimé", "à vérifier", "réel"]),
       costNote: z.string().optional(),
     }),

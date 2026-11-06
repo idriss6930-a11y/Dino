@@ -15,39 +15,40 @@ réel et relancer les commandes avant de dépenser quoi que ce soit.
 | Remboursements | 6 % des commandes, 20 % du coût produit récupéré | Estimé |
 | Litiges bancaires | 0,5 % des commandes, 15 € de frais | Frais sourcé, taux estimé |
 | Coûts variables divers | 0,50 € par commande (service client, petits frais) | Estimé |
-| Frais fixes | 68,45 € par mois (Shopify 43,20 € TVA autoliquidée comprise, domaine, médiateur, Citeo/Ecomaison, banque) | Shopify à vérifier sur facture ; le reste estimé |
+| Frais fixes | 65,45 € par mois (Shopify 43,20 € TVA autoliquidée comprise, domaine 1,25 €, médiateur 5 €, Citeo 11 €, banque 5 €) | Shopify à vérifier sur facture ; médiateur et Citeo vérifiés le 06/11 (probable) |
+| Éco-participation Ecomaison | ≈ 0,35 € par oreiller, coût variable | Probable (vérifié le 06/11) |
 | Coût débarqué | Oreiller 18 € ; duo 31 € (envoi groupé) ; kit stock France 27 € | **Estimé** |
 
 ## 2. Économie unitaire
 
 | Offre | Prix | Coût débarqué | Contribution avant pub | CPA max (HT régie) | ROAS de rentabilité | Profit par commande à 28 / 40 / 55 € de CPA |
 |---|---|---|---|---|---|---|
-| Oreiller seul | 59 € | 18 € | 28,51 € | 23,75 € | 2,48 | −5,09 / −19,49 / −37,49 € |
-| **Duo** | **99 €** | **31 €** | **47,62 €** | **39,69 €** | **2,49** | **+14,02 / −0,38 / −18,38 €** |
-| Kit dormeur latéral, stock France | 84 € | 27 € | 39,59 € | 32,99 € | 2,55 | +5,99 / −8,41 / −26,41 € |
-| Kit, accessoires de Chine | 84 € | 27 € + 10 € de douane | 29,59 € | 24,66 € | 3,41 | −4,01 / −18,41 / −36,41 € |
-| Mix réaliste 60 % duo / 40 % unité | 83 € | 25,80 € | 39,98 € | 33,31 € | 2,49 | — |
+| Oreiller seul | 59 € | 18 € | 28,16 € | 23,46 € | 2,51 | −5,44 / −19,84 / −37,84 € |
+| **Duo** | **99 €** | **31 €** | **46,92 €** | **39,10 €** | **2,53** | **+13,32 / −1,08 / −19,08 €** |
+| Kit dormeur latéral, stock France | 84 € | 27 € | 39,24 € | 32,70 € | 2,57 | +5,64 / −8,76 / −26,76 € |
+| Kit, accessoires de Chine | 84 € | 27 € + 10 € de douane | 29,24 € | 24,37 € | 3,45 | −4,36 / −18,76 / −36,76 € |
+| Mix réaliste 60 % duo / 40 % unité | 83 € | 25,80 € | 39,42 € | 32,85 € | 2,53 | — |
 | Plan B : Pilates, stock UE | 44,90 € | 8 € | 27,12 € | 22,60 € | 1,99 | −6,48 / −20,88 / −38,88 € |
 
 Trois enseignements :
 
-1. **L'oreiller seul ne peut pas être vendu par publicité payante** : il faudrait un CPA inférieur à 23,75 €.
-2. **Le duo est la seule offre rentable dès la première commande à un CPA réaliste** (équilibre à 39,69 €).
+1. **L'oreiller seul ne peut pas être vendu par publicité payante** : il faudrait un CPA inférieur à 23,46 €.
+2. **Le duo est la seule offre rentable dès la première commande à un CPA réaliste** (équilibre à 39,10 €).
 3. **Un accessoire expédié de Chine détruit la marge** : 10 € de douane et frais font perdre 10 € de contribution au kit.
 
 ## 3. Le test de novembre (11 → 22 novembre)
 
-Budget : 32,50 € HT par jour pendant 12 jours = 390 € HT facturés, **468 € de coût réel**. Frais de départ : 120 € (échantillon,
-premières adhésions). Versements Shopify à J+3.
+Budget : 32,50 € HT par jour pendant 12 jours = 390 € HT facturés, **468 € de coût réel**. Frais de départ : 40 € (échantillon).
+Les adhésions de conformité (≈ 180 à 192 € TTC) sont comptées à part : elles sont dues quel que soit le produit. Versements Shopify à J+3.
 
 | Scénario (offre duo) | CPA | Commandes | CA conservé | Résultat net du test | Trésorerie mobilisée au pire moment |
 |---|---|---|---|---|---|
-| Pessimiste | 55 € | 7 | 656 € | **−278 €** | 359 € |
-| Réaliste | 40 € | 10 | 903 € | **−151 €** | 321 € |
-| Optimiste | 28 € | 14 | 1 289 € | **+48 €** | 354 € |
+| Pessimiste | 55 € | 7 | 656 € | **−201 €** | 283 € |
+| Réaliste | 40 € | 10 | 903 € | **−77 €** | 242 € |
+| Optimiste | 28 € | 14 | 1 289 € | **+119 €** | 276 € |
 
 Le test n'est pas fait pour gagner de l'argent : il **achète une information** (le vrai CPA, la part de duos, la conversion de la fiche)
-pour 150 à 280 € de perte maximale réaliste, avant la semaine du Black Friday où la même information coûterait 60 à 116 % plus cher.
+pour 77 à 201 € de perte selon le scénario, avant la semaine du Black Friday où la même information coûterait 60 à 116 % plus cher.
 
 ## 4. Les 90 jours suivants (si le test passe : ROAS ≥ 2,5)
 
@@ -56,32 +57,32 @@ Simulation sur le mix 60 % duo / 40 % unité, frais fixes compris, versements à
 | Scénario | Budget pub | CPA | Commandes | CA | Coût pub | Résultat net 90 jours | Trésorerie au pire |
 |---|---|---|---|---|---|---|---|
 | Pessimiste | 0 € (arrêt après le test) | — | — | — | — | perte du test uniquement | — |
-| Réaliste | 30 € HT/jour | 36 € | 75 | 5 820 € | 3 240 € | **−447 €** | 659 € |
-| Optimiste | 45 € HT/jour | 28 € | 145 | 11 225 € | 4 860 € | **+717 €** | 296 € |
+| Réaliste | 30 € HT/jour | 36 € | 75 | 5 820 € | 3 240 € | **−480 €** | 692 € |
+| Optimiste | 45 € HT/jour | 28 € | 145 | 11 225 € | 4 860 € | **+645 €** | 298 € |
 
-**Lecture sans complaisance** : en publicité payante seule, même dans le bon scénario, l'activité dégage environ 240 € par mois.
+**Lecture sans complaisance** : en publicité payante seule, même dans le bon scénario, l'activité dégage environ 215 € par mois.
 Ce n'est pas une entreprise, c'est un point de départ. Ce qui la rend rentable :
 
 | Levier | Effet attendu (calculé) | Statut |
 |---|---|---|
-| Part de duos de 60 % à 80 % | Panier de 83 € à 91 €, CPA max de 33,31 € à environ 36,50 € | Fiche produit : duo présélectionné |
-| Affiliés TikTok Shop (9 % plateforme TVA autoliquidée comprise + 15 % créateur) | **18,56 € par commande sur le mix, 22,08 € sur le duo, sans aucune dépense préalable** | Règles d'expédition et d'éligibilité en France à vérifier |
+| Part de duos de 60 % à 80 % | Panier de 83 € à 91 €, CPA max de 32,85 € à 35,98 € | Fiche produit : duo présélectionné |
+| Affiliés TikTok Shop (9 % plateforme TVA autoliquidée comprise + 15 % créateur) | 21,38 € par duo, sans dépense préalable | **Option conditionnelle, hors scénario de base** : l'exécution via AliExpress n'est ni autorisée ni interdite explicitement (risque élevé) ; versements 7 à 14 jours après livraison (non confirmé). Lire la politique du Seller Center avant tout |
 | Fiches gratuites Google (canal déjà installé) | Ventes sans coût d'acquisition | À activer et contrôler |
 | E-mails : relance panier, demande d'avis, housse de rechange | Ventes répétées sans coût d'acquisition | Contenus à écrire, envoi sur votre accord |
-| Coût fournisseur −3 € sur le duo | +3 € par commande, CPA max +2,50 € | Négociation ou second fournisseur France |
+| Coût fournisseur −3 € sur le duo | +3 € par commande, CPA max de 39,10 € à 41,57 € | Négociation ou second fournisseur France |
 
 ## 5. Budget et capital nécessaire
 
 | Poste | Montant | Quand | Votre accord |
 |---|---|---|---|
 | Échantillon (oreiller, éventuellement accessoires) | 30 à 50 € (estimé) | Immédiat | Oui (achat) |
-| Adhésions REP (Citeo 80 à 110 € HT par an ; Ecomaison non chiffré) | 80 à 150 € (estimé) | Avant le test | Oui (engagement) |
-| Médiateur de la consommation | Non chiffré (à vérifier) | Avant le test | Oui (contrat) |
+| Citeo (forfait 110 € HT par an, probable) ; Ecomaison ≈ 0,35 € par oreiller, payé sur déclaration | 132 € TTC | Avant le test | Oui (engagement) |
+| Médiateur de la consommation (CM2C ou Med Conso Dev, devis à demander) | 48 à 60 € TTC | Avant le test | Oui (contrat) |
 | Test publicitaire | 390 € HT facturés, 468 € réels | 11 → 22 novembre | **Oui (dépense)** |
-| Frais fixes | 68,45 € par mois | En continu | Déjà engagés |
+| Frais fixes | 65,45 € par mois | En continu | Déjà engagés |
 | Réserve de trésorerie (décalage des versements, remboursements) | 350 € | Pendant le test | — |
-| **Trésorerie à prévoir pour novembre** | **≈ 1 000 à 1 100 €** hors médiateur (dont 350 € de réserve qui revient) | | |
-| **Perte si le test échoue** | **≈ 230 à 430 €** (résultat du test de −151 à −278 € + adhésions REP de 80 à 150 €) | | |
+| **Trésorerie à prévoir pour novembre** | **≈ 1 100 €** (dont 350 € de réserve qui revient) | | |
+| **Perte si le test échoue** | **≈ 260 à 390 €** (résultat du test de −77 à −201 € + adhésions de 180 à 192 €) | | |
 | Si le test passe : montée en charge décembre-janvier | 30 à 45 € HT par jour, soit 1 100 à 1 650 € réels par mois, autofinancés à partir du 2e mois en scénario optimiste | Décembre | Oui, palier par palier |
 
 ## 6. Cadre juridique et fiscal
@@ -98,7 +99,7 @@ Ce n'est pas une entreprise, c'est un point de départ. Ce qui la rend rentable 
 | Indicateur | Seuil | Source |
 |---|---|---|
 | ROAS régie | ≥ 2,5 (sinon arrêt) | Rapport quotidien |
-| CPA | ≤ 39,69 € (duo) ; ≤ 33,31 € (mix) | Rapport quotidien |
+| CPA | ≤ 39,10 € (duo) ; ≤ 32,85 € (mix) | Rapport quotidien |
 | Dépense depuis la dernière vente | < 3 × CPA max | Alerte `KILL_NO_SALES` |
 | Taux de remboursement (14 jours) | ≤ 8 % | Alerte `REFUND_RATE_HIGH` |
 | Taux d'ajout au panier | ≥ 4 à 5 % des sessions françaises | ShopifyQL |

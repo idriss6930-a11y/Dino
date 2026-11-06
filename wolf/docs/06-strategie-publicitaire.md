@@ -17,14 +17,14 @@
 | 2 | Contenu non sponsorisé TikTok et Reels (démonstrations filmées par vous) | Votre temps | Mesure gratuite des angles qui retiennent l'attention |
 | 3 | Test Meta plafonné (11 → 22 novembre) | 390 € HT | Mesurer le vrai CPA et la part de duos avant le Black Friday |
 | 4 | Google Search et Shopping sur requêtes d'achat | Après lecture du Keyword Planner | Aucun coût par clic publié pour ces requêtes en France |
-| 5 | Affiliés TikTok Shop à la commission (≈ 15 %) | Seulement sur ventes | 22 € par duo sans dépense préalable, si l'éligibilité est confirmée |
+| 5 | Affiliés TikTok Shop à la commission (≈ 15 %) | Seulement sur ventes | 21 € par duo sans dépense préalable ; **option conditionnelle** : la politique de dropshipping n'est pas confirmée, à lire dans le Seller Center avant d'ouvrir |
 
 ## Le test Meta
 
 - **Prérequis** : pixel + API Conversions, achat de test validé, numéro de TVA intracommunautaire, coût réel saisi dans Shopify.
 - **Structure** : 1 campagne Ventes, budget de campagne 32,50 € HT par jour, ciblage large France 25-65 ans, placements automatiques,
   optimisation sur l'achat. 4 publicités, une par angle ci-dessous. Pas de ciblage d'intérêts « santé ».
-- **Arrêt** : une publicité qui a dépensé 3 × le CPA maximal (≈ 119 € HT) sans vente est coupée ; plafond de 390 € HT ;
+- **Arrêt** : une publicité qui a dépensé 3 × le CPA maximal (≈ 117 € HT) sans vente est coupée ; plafond de 390 € HT ;
   décision le 23 novembre sur le ROAS (≥ 2,5 pour continuer).
 - **Semaine du Black Friday** (si le test passe) : relance des visiteurs et paniers uniquement, pas d'acquisition froide.
 - **Décembre** : angle cadeau jusqu'à la date limite de livraison annoncée au client (à fixer avec le fournisseur, sans promesse de
@@ -94,7 +94,7 @@ Si un créateur est payé : mention « Publicité » visible dès l'ouverture.
 | CTR lien | ≥ 1 % (repère 1,3 %) | Notes coûts d'acquisition |
 | Ajout au panier | ≥ 4 à 5 % des sessions françaises | Calcul du rapport |
 | Conversion | ≥ 1,4 % | Repère Shopify |
-| CPA | ≤ 39,69 € (duo), ≤ 33,31 € (mix 60/40) | Moteur THE WOLF |
+| CPA | ≤ 39,10 € (duo), ≤ 32,85 € (mix 60/40) | Moteur THE WOLF |
 | ROAS | ≥ 2,5 | Moteur THE WOLF |
 
 Une publicité perdante se diagnostique dans l'ordre : CTR faible → l'accroche ne retient pas ; CTR bon mais peu d'ajouts au panier →
