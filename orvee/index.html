@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ORVÉE — Bijoux en vermeil 18k &amp; acier PVD, faits pour ne jamais être retirés</title>
+<meta name="description" content="Maison Orvée. Demi-fine jewelry en vermeil 18 carats et acier inoxydable PVD waterproof. Garantie à vie, livraison 48h.">
+<meta name="theme-color" content="#111111">
+<script>document.documentElement.classList.replace('no-js','js')</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Tailwind CSS (CDN, v4) -->
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+  @theme {
+    --color-ivory: #F9F8F6;
+    --color-bone: #EFEBE4;
+    --color-obsidian: #111111;
+    --color-gold: #C5A059;
+    --color-smoke: #6F6A62;
+    --font-display: "Cormorant Garamond", "Times New Roman", serif;
+    --font-sans: "Jost", system-ui, sans-serif;
+  }
+</style>
+
+<style>
+  :root { --ease: cubic-bezier(.22, 1, .36, 1); }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body { background: #F9F8F6; color: #111111; font-family: "Jost", system-ui, sans-serif; font-weight: 300; }
+  ::selection { background: #C5A059; color: #111111; }
+  .eyebrow { font-size: 11px; letter-spacing: .32em; text-transform: uppercase; font-weight: 400; }
+  .img-fallback { background: linear-gradient(135deg, #E9E2D6 0%, #D9C7A3 55%, #B8935A 100%); }
+
+  /* ---------- Curseur personnalisé ---------- */
+  .cursor-dot, .cursor-ring { position: fixed; top: 0; left: 0; pointer-events: none; z-index: 120; border-radius: 9999px; opacity: 0; }
+  .cursor-dot { width: 6px; height: 6px; margin: -3px 0 0 -3px; background: #C5A059; }
+  .cursor-ring {
+    width: 40px; height: 40px; margin: -20px 0 0 -20px; border: 1px solid rgba(197,160,89,.9);
+    display: grid; place-items: center;
+    transition: width .45s var(--ease), height .45s var(--ease), margin .45s var(--ease), background-color .35s, border-color .35s;
+  }
+  .cursor-ring span { font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: #111; opacity: 0; transform: scale(.6); transition: opacity .25s, transform .45s var(--ease); font-weight: 500; }
+  .cursor-ring.is-link { width: 64px; height: 64px; margin: -32px 0 0 -32px; background: rgba(197,160,89,.14); }
+  .cursor-ring.is-view { width: 108px; height: 108px; margin: -54px 0 0 -54px; background: #C5A059; border-color: #C5A059; }
+  .cursor-ring.is-view span { opacity: 1; transform: scale(1); }
+  .has-cursor .cursor-dot, .has-cursor .cursor-ring { opacity: 1; }
+  .has-cursor.cursor-view .cursor-dot { opacity: 0; }
+  @media (hover: hover) and (pointer: fine) { .has-cursor, .has-cursor a, .has-cursor button { cursor: none; } }
+
+  /* ---------- Apparitions au scroll (Intersection Observer) ---------- */
+  .js [data-reveal] { opacity: 0; transform: translateY(36px); transition: opacity 1.1s var(--ease), transform 1.1s var(--ease); transition-delay: var(--d, 0ms); }
+  .js [data-reveal].is-in { opacity: 1; transform: none; }
+  .js [data-clip] .clip-inner { clip-path: inset(0 0 100% 0); transform: scale(1.12); transition: clip-path 1.4s var(--ease), transform 1.9s var(--ease); }
+  .js [data-clip].is-in .clip-inner { clip-path: inset(0 0 0 0); transform: none; }
+  .line-mask { display: block; overflow: hidden; padding-bottom: .08em; }
+  .line-mask > span { display: block; will-change: transform; }
+
+  /* ---------- Marquee infini ---------- */
+  .marquee { display: flex; overflow: hidden; user-select: none; }
+  .marquee__track { flex-shrink: 0; display: flex; align-items: center; min-width: 100%; animation: marquee 38s linear infinite; }
+  .marquee:hover .marquee__track { animation-play-state: paused; }
+  @keyframes marquee { to { transform: translateX(-100%); } }
+
+  /* ---------- Cartes produit ---------- */
+  .card__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: opacity .9s var(--ease), transform 1.6s var(--ease); }
+  .card__media .img-worn { opacity: 0; transform: scale(1.12); }
+  .card__add { transform: translateY(101%); transition: transform .55s var(--ease), background-color .3s, color .3s; }
+  @media (hover: hover) {
+    .card:hover .img-pack { opacity: 0; transform: scale(1.08); }
+    .card:hover .img-worn { opacity: 1; transform: scale(1.02); }
+    .card:hover .card__add, .card:focus-within .card__add { transform: none; }
+  }
+  @media (hover: none) { .card__add { transform: none; } }
+  .card__add.is-added { background: #C5A059; color: #111; }
+
+  /* ---------- Header ---------- */
+  #header { transition: background-color .5s, color .5s, transform .6s var(--ease), border-color .5s; color: #F9F8F6; border-bottom: 1px solid transparent; }
+  #header.is-solid { background: rgba(249,248,246,.88); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); color: #111; border-color: rgba(17,17,17,.08); }
+  #header.is-hidden { transform: translateY(-100%); }
+  .link-line { position: relative; }
+  .link-line::after { content: ""; position: absolute; left: 0; bottom: -4px; width: 100%; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform .5s var(--ease); }
+  .link-line:hover::after { transform: scaleX(1); transform-origin: left; }
+
+  /* ---------- Panier ---------- */
+  #cart { transform: translateX(100%); transition: transform .7s var(--ease); }
+  #cart.is-open { transform: none; box-shadow: -30px 0 80px rgba(17,17,17,.25); }
+  #overlay { opacity: 0; pointer-events: none; transition: opacity .5s; }
+  #overlay.is-open { opacity: 1; pointer-events: auto; }
+  #shipBar { transition: width .8s var(--ease); }
+  .cart-item { animation: itemIn .6s var(--ease) both; }
+  @keyframes itemIn { from { opacity: 0; transform: translateX(24px); } }
+  .bump { animation: bump .5s var(--ease); }
+  @keyframes bump { 40% { transform: scale(1.5); } }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .marquee__track { animation-duration: 120s; }
+    .js [data-reveal], .js [data-clip] .clip-inner { transition: none; opacity: 1; transform: none; clip-path: none; }
+  }
+</style>
+</head>
+
+<body class="overflow-x-clip">
+
+<!-- Curseur -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"><span>Découvrir</span></div>
+
+<!-- Rideau d'introduction -->
+<div id="intro" class="fixed inset-0 z-[110] bg-obsidian text-ivory grid place-items-center" aria-hidden="true">
+  <div class="text-center">
+    <span class="line-mask"><span id="introWord" class="font-display text-5xl md:text-7xl tracking-[0.3em] pl-[0.3em]">ORVÉE</span></span>
+    <span class="eyebrow block mt-5 text-gold">Maison de bijoux · Paris</span>
+  </div>
+</div>
+
+<!-- Header -->
+<header id="header" class="fixed top-0 inset-x-0 z-50">
+  <div class="bg-obsidian text-ivory text-center py-2 px-4 eyebrow !text-[10px]">Drop 01 « Première Lueur » — 300 exemplaires numérotés · Livraison 48h offerte dès 120 €</div>
+  <div class="flex items-center justify-between px-5 md:px-10 h-16 md:h-20">
+    <nav class="hidden md:flex gap-9 eyebrow w-1/3" aria-label="Navigation principale">
+      <a href="#collection" class="link-line">Collection</a>
+      <a href="#savoir-faire" class="link-line">Savoir-faire</a>
+      <a href="#ecrin" class="link-line">L'écrin</a>
+    </nav>
+    <a href="#top" class="font-display text-2xl md:text-3xl tracking-[0.34em] pl-[0.34em] md:w-1/3 md:text-center" aria-label="Orvée — accueil">ORVÉE</a>
+    <div class="flex justify-end items-center gap-8 eyebrow md:w-1/3">
+      <a href="#club" class="link-line hidden md:inline">Le Cercle</a>
+      <button id="cartOpen" data-magnetic class="flex items-center gap-2 uppercase tracking-[.32em]" aria-haspopup="dialog" aria-controls="cart">
+        Panier <span id="cartCount" class="inline-grid place-items-center min-w-5 h-5 px-1 rounded-full bg-gold text-obsidian text-[10px] tracking-normal font-medium">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section id="hero" class="relative h-[100svh] min-h-[640px] overflow-hidden bg-obsidian text-ivory">
+    <div id="heroMedia" class="absolute inset-0 -top-[8%] h-[124%] img-fallback">
+      <img data-img="photo-1620656798579-1984d9e87df7" data-w="2000" alt="Femme portant un collier en or sur une tenue noire" class="w-full h-full object-cover object-[50%_30%]" fetchpriority="high">
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-t from-obsidian/85 via-obsidian/25 to-obsidian/45"></div>
+
+    <div id="heroContent" class="relative h-full flex flex-col justify-end px-5 md:px-10 pb-14 md:pb-20">
+      <p class="eyebrow text-ivory/85 mb-6 hero-fade"><span class="text-gold">✦</span>&nbsp; Drop 01 — Première Lueur</p>
+      <h1 class="font-display font-light leading-[0.92] text-[15vw] md:text-[9.2vw] -ml-[0.04em]">
+        <span class="line-mask"><span class="hero-line">L'or qui ne</span></span>
+        <span class="line-mask"><span class="hero-line"><em class="italic text-gold">vous quitte</em> plus.</span></span>
+      </h1>
+      <div class="mt-8 md:mt-10 flex flex-col md:flex-row md:items-end md:justify-between gap-8">
+        <p class="max-w-md text-base md:text-lg leading-relaxed text-ivory/85 hero-fade">Vermeil 18 carats et acier PVD. Des bijoux pensés pour la douche, la mer, le sommeil — et les dix prochaines années.</p>
+        <div class="flex items-center gap-8 hero-fade">
+          <a href="#collection" data-magnetic class="inline-flex items-center gap-4 bg-ivory text-obsidian px-9 py-5 eyebrow hover:bg-gold transition-colors duration-500">Découvrir le Drop 01 <span aria-hidden="true">→</span></a>
+          <a href="#savoir-faire" class="eyebrow link-line hidden sm:inline">Notre savoir-faire</a>
+        </div>
+      </div>
+    </div>
+    <div class="absolute right-5 md:right-10 top-1/2 -translate-y-1/2 hidden md:flex flex-col items-center gap-4 eyebrow !text-[10px] hero-fade" aria-hidden="true">
+      <span class="[writing-mode:vertical-rl]">Défiler</span><span class="block w-px h-16 bg-ivory/50 origin-top animate-pulse"></span>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <section class="bg-obsidian text-ivory border-t border-ivory/10 py-5" aria-label="Nos garanties">
+    <div class="marquee" id="marquee"></div>
+  </section>
+
+  <!-- ============ MANIFESTE ============ -->
+  <section class="px-5 md:px-10 py-28 md:py-44">
+    <div class="grid md:grid-cols-12 gap-8">
+      <p class="eyebrow text-smoke md:col-span-3" data-reveal>Manifeste</p>
+      <p id="manifesto" class="md:col-span-9 font-display font-light text-3xl md:text-[3.4vw] leading-[1.18]">Un bijou n'est pas fait pour dormir dans un écrin. Il est fait pour vivre contre la peau, traverser l'eau, le sel et les années — et garder, intact, l'éclat du premier jour.</p>
+    </div>
+  </section>
+
+  <!-- ============ COLLECTION ============ -->
+  <section id="collection" class="px-5 md:px-10 pb-28 md:pb-40 scroll-mt-24">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12 md:mb-16">
+      <div>
+        <p class="eyebrow text-gold mb-4" data-reveal>Drop 01 · Six pièces fondatrices</p>
+        <h2 class="font-display font-light text-5xl md:text-7xl leading-none" data-reveal>Première <em class="italic">Lueur</em></h2>
+      </div>
+      <p class="max-w-sm text-smoke leading-relaxed" data-reveal>Six formes essentielles, dessinées à Paris. Chacune est numérotée, garantie à vie et livrée dans son écrin de lin.</p>
+    </div>
+    <div id="grid" class="grid grid-cols-2 lg:grid-cols-3 gap-x-4 md:gap-x-6 gap-y-12 md:gap-y-20"></div>
+  </section>
+
+  <!-- ============ SAVOIR-FAIRE ============ -->
+  <section id="savoir-faire" class="bg-obsidian text-ivory px-5 md:px-10 py-28 md:py-44 scroll-mt-0">
+    <div class="grid md:grid-cols-12 gap-10 md:gap-16 items-start">
+      <div class="md:col-span-5 md:sticky md:top-28">
+        <p class="eyebrow text-gold mb-6" data-reveal>Savoir-faire</p>
+        <h2 class="font-display font-light text-5xl md:text-7xl leading-[0.98]" data-reveal>Trois gestes.<br><em class="italic text-gold">Zéro</em> compromis.</h2>
+        <div class="mt-12 relative aspect-[4/5] overflow-hidden" data-clip>
+        <div class="clip-inner absolute inset-0 overflow-hidden img-fallback"><img data-img="photo-1561828995-aa79a2db86dd" data-w="1200" data-parallax="8" alt="Bijoux dorés posés sur une surface claire" class="absolute left-0 -top-[10%] w-full h-[120%] object-cover" loading="lazy"></div>
+      </div>
+      </div>
+
+      <div class="md:col-span-6 md:col-start-7 md:pt-40 space-y-20 md:space-y-28">
+        <article data-reveal>
+          <span class="font-display italic text-gold text-2xl">01</span>
+          <h3 class="font-display text-3xl md:text-4xl mt-3 mb-4">Le socle noble</h3>
+          <p class="text-ivory/70 leading-relaxed max-w-lg">Argent 925 recyclé pour le vermeil, acier chirurgical 316L pour les pièces du quotidien. Jamais de laiton, jamais de nickel : la base décide de tout ce que la dorure deviendra.</p>
+        </article>
+        <article data-reveal>
+          <span class="font-display italic text-gold text-2xl">02</span>
+          <h3 class="font-display text-3xl md:text-4xl mt-3 mb-4">Le bain d'or épais</h3>
+          <p class="text-ivory/70 leading-relaxed max-w-lg">2,5 microns d'or 18 carats sur nos vermeils — cinq fois l'épaisseur d'un plaqué or courant. Sur l'acier, l'or est fusionné sous vide par dépôt PVD : il ne s'écaille pas, il fait corps.</p>
+        </article>
+        <article data-reveal>
+          <span class="font-display italic text-gold text-2xl">03</span>
+          <h3 class="font-display text-3xl md:text-4xl mt-3 mb-4">L'épreuve</h3>
+          <p class="text-ivory/70 leading-relaxed max-w-lg">Brouillard salin, sueur artificielle, 500 frottements : chaque lot est testé en laboratoire indépendant avant de porter notre poinçon. Ce qui ne passe pas ne part pas.</p>
+        </article>
+
+        <dl class="grid grid-cols-2 gap-x-6 gap-y-12 border-t border-ivory/15 pt-12" data-reveal>
+          <div><dt class="eyebrow text-ivory/50 mb-3">Microns d'or 18k</dt><dd class="font-display text-6xl md:text-7xl text-gold"><span data-count="2.5" data-dec="1">2,5</span></dd></div>
+          <div><dt class="eyebrow text-ivory/50 mb-3">Nickel détecté</dt><dd class="font-display text-6xl md:text-7xl text-gold"><span data-count="0">0</span></dd></div>
+          <div><dt class="eyebrow text-ivory/50 mb-3">Heures de brouillard salin</dt><dd class="font-display text-6xl md:text-7xl text-gold"><span data-count="96">96</span></dd></div>
+          <div><dt class="eyebrow text-ivory/50 mb-3">Garantie</dt><dd class="font-display text-6xl md:text-7xl text-gold italic">À vie</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ L'ÉCRIN ============ -->
+  <section id="ecrin" class="px-5 md:px-10 py-28 md:py-40 scroll-mt-10">
+    <div class="grid md:grid-cols-2 gap-10 md:gap-20 items-center">
+      <div class="relative aspect-[5/6] overflow-hidden order-2 md:order-1" data-clip>
+        <div class="clip-inner absolute inset-0 overflow-hidden img-fallback"><img data-img="photo-1672646856394-ec0dd6a4ccec" data-w="1400" data-parallax="8" alt="Deux colliers dorés posés sur un coquillage blanc" class="absolute left-0 -top-[10%] w-full h-[120%] object-cover" loading="lazy"></div>
+      </div>
+      <div class="order-1 md:order-2 md:max-w-md">
+        <p class="eyebrow text-gold mb-6" data-reveal>L'écrin</p>
+        <h2 class="font-display font-light text-5xl md:text-6xl leading-[1.02] mb-8" data-reveal>Une lettre, un numéro, <em class="italic">votre</em> prénom.</h2>
+        <p class="text-smoke leading-relaxed mb-5" data-reveal>Chaque pièce voyage dans une pochette de lin lavé, scellée à la cire dorée. À l'intérieur : sa carte numérotée à la main, et une « Lueur » — un mot tiré au sort parmi cent, à garder ou à offrir.</p>
+        <p class="text-smoke leading-relaxed" data-reveal>Rien n'est jeté : l'écrin devient pochette de voyage.</p>
+        <a href="#collection" data-magnetic class="inline-flex items-center gap-4 mt-10 border border-obsidian px-9 py-5 eyebrow hover:bg-obsidian hover:text-ivory transition-colors duration-500" data-reveal>Choisir ma pièce <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LE CERCLE ============ -->
+  <section id="club" class="bg-bone px-5 md:px-10 py-24 md:py-32 text-center scroll-mt-10">
+    <p class="eyebrow text-gold mb-6" data-reveal>Le Cercle Orvée</p>
+    <h2 class="font-display font-light text-4xl md:text-6xl leading-tight max-w-3xl mx-auto" data-reveal>Accédez au Drop 02 quarante-huit heures avant tout le monde.</h2>
+    <form id="newsletter" class="mt-10 max-w-xl mx-auto flex flex-col sm:flex-row gap-3" data-reveal novalidate>
+      <label for="email" class="sr-only">Adresse e-mail</label>
+      <input id="email" type="email" required autocomplete="email" placeholder="votre@email.com" class="flex-1 bg-transparent border-b border-obsidian/40 focus:border-obsidian outline-none py-4 px-1 text-lg placeholder:text-smoke/60">
+      <button data-magnetic class="bg-obsidian text-ivory px-9 py-5 eyebrow hover:bg-gold hover:text-obsidian transition-colors duration-500">Entrer dans le Cercle</button>
+    </form>
+    <p id="newsletterMsg" class="mt-5 text-sm text-smoke min-h-5" role="status" aria-live="polite">−10 % sur votre première pièce. Aucun spam, jamais.</p>
+  </section>
+</main>
+
+<footer class="bg-obsidian text-ivory px-5 md:px-10 pt-20 pb-8">
+  <div class="grid md:grid-cols-4 gap-10 pb-16 border-b border-ivory/15">
+    <div class="md:col-span-2">
+      <p class="font-display text-4xl tracking-[0.3em]">ORVÉE</p>
+      <p class="mt-5 text-ivory/60 max-w-xs leading-relaxed">Bijoux en vermeil 18k et acier PVD, dessinés à Paris pour ne jamais être retirés.</p>
+    </div>
+    <ul class="space-y-3 text-ivory/70"><li class="eyebrow text-ivory/40 mb-5">Maison</li><li><a class="link-line" href="#collection">Collection</a></li><li><a class="link-line" href="#savoir-faire">Savoir-faire</a></li><li><a class="link-line" href="#ecrin">L'écrin</a></li></ul>
+    <ul class="space-y-3 text-ivory/70"><li class="eyebrow text-ivory/40 mb-5">Service</li><li>Livraison 48h &amp; retours 30 jours</li><li>Garantie à vie</li><li>Guide des tailles</li></ul>
+  </div>
+  <p class="pt-8 text-xs text-ivory/40 flex flex-col md:flex-row justify-between gap-2"><span>© <span id="year"></span> Maison Orvée. Maquette de démonstration — paiement simulé.</span><span>Photographies : Unsplash.</span></p>
+</footer>
+
+<!-- ============ PANIER (slide-over) ============ -->
+<div id="overlay" class="fixed inset-0 z-[90] bg-obsidian/55 backdrop-blur-[2px]"></div>
+<aside id="cart" class="fixed top-0 right-0 z-[100] h-[100dvh] w-full sm:w-[460px] bg-ivory flex flex-col" role="dialog" aria-modal="true" aria-labelledby="cartTitle" inert>
+  <div class="flex items-center justify-between px-6 md:px-8 h-20 border-b border-obsidian/10 shrink-0">
+    <h2 id="cartTitle" class="font-display text-3xl">Votre écrin <span id="cartTitleCount" class="text-smoke text-xl"></span></h2>
+    <button id="cartClose" class="eyebrow link-line" aria-label="Fermer le panier">Fermer</button>
+  </div>
+
+  <div id="cartBody" class="flex-1 flex flex-col min-h-0">
+    <div class="px-6 md:px-8 py-5 border-b border-obsidian/10 shrink-0">
+      <p id="shipText" class="text-sm mb-3" aria-live="polite"></p>
+      <div class="h-[3px] bg-obsidian/10 overflow-hidden" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="shipProgress" aria-label="Progression vers la livraison offerte">
+        <div id="shipBar" class="h-full bg-gold" style="width:0%"></div>
+      </div>
+    </div>
+
+    <ul id="cartItems" class="flex-1 overflow-y-auto px-6 md:px-8 divide-y divide-obsidian/10"></ul>
+
+    <div id="cartEmpty" class="flex-1 grid place-items-center px-8 text-center">
+      <div>
+        <p class="font-display italic text-3xl mb-3">Votre écrin est vide.</p>
+        <p class="text-smoke mb-8">Six pièces attendent de vous suivre partout.</p>
+        <button data-cart-close class="border border-obsidian px-8 py-4 eyebrow hover:bg-obsidian hover:text-ivory transition-colors duration-500">Voir la collection</button>
+      </div>
+    </div>
+
+    <div id="cartFoot" class="px-6 md:px-8 py-6 border-t border-obsidian/10 shrink-0 space-y-2">
+      <div class="flex justify-between text-sm text-smoke"><span>Sous-total</span><span id="subTotal"></span></div>
+      <div class="flex justify-between text-sm text-smoke"><span>Livraison 48h</span><span id="shipCost"></span></div>
+      <div class="flex justify-between items-baseline pt-3"><span class="eyebrow">Total TTC</span><span id="total" class="font-display text-4xl"></span></div>
+      <button id="checkout" class="w-full mt-4 bg-obsidian text-ivory py-5 eyebrow hover:bg-gold hover:text-obsidian transition-colors duration-500 disabled:opacity-60">Passer en caisse</button>
+      <p class="text-center text-xs text-smoke pt-2">Paiement sécurisé · Retours 30 jours · Garantie à vie</p>
+    </div>
+  </div>
+
+  <div id="cartSuccess" class="hidden flex-1 place-items-center px-8 text-center">
+    <div>
+      <div class="w-16 h-16 mx-auto mb-8 rounded-full border border-gold grid place-items-center text-gold text-2xl">✓</div>
+      <p class="eyebrow text-gold mb-4">Commande confirmée</p>
+      <p class="font-display text-4xl mb-4">Merci. Votre lueur est en route.</p>
+      <p class="text-smoke mb-2">Commande <strong id="orderId" class="font-medium text-obsidian"></strong></p>
+      <p class="text-smoke text-sm mb-10">Simulation : aucun paiement n'a été effectué.</p>
+      <button data-cart-close class="border border-obsidian px-8 py-4 eyebrow hover:bg-obsidian hover:text-ivory transition-colors duration-500">Continuer</button>
+    </div>
+  </div>
+</aside>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+<script>
+(() => {
+  'use strict';
+  const $ = (s, c = document) => c.querySelector(s);
+  const $$ = (s, c = document) => [...c.querySelectorAll(s)];
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const finePointer = matchMedia('(hover: hover) and (pointer: fine)').matches;
+  const hasGsap = typeof window.gsap !== 'undefined';
+  const euro = n => new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR', minimumFractionDigits: n % 1 ? 2 : 0 }).format(n);
+  const img = (id, w = 900) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
+
+  /* ---------- Données : Drop 01 ---------- */
+  const FREE_SHIPPING = 120, SHIPPING = 4.9;
+  const PRODUCTS = [
+    { id: 'sillage',  name: 'Sillage',  type: 'Collier maille miroir',  mat: 'Vermeil 18k · 2,5 microns', price: 95,  iconic: true,
+      pack: 'photo-1625792508553-5e66a81659fa', worn: 'photo-1589713680561-1d0b6945a582' },
+    { id: 'aube',     name: 'Aube',     type: 'Bague dôme',             mat: 'Acier 316L · or PVD',  price: 59,
+      pack: 'photo-1622398925373-3f91b1e275f5', worn: 'photo-1698259947669-82602bc3a702' },
+    { id: 'halo',     name: 'Halo',     type: 'Créoles sculptées',      mat: 'Acier 316L · or PVD',  price: 65,  iconic: true,
+      pack: 'photo-1623279743107-152e86999257', worn: 'photo-1671644730555-916aa8d8157f' },
+    { id: 'rivage',   name: 'Rivage',   type: 'Bracelet maille souple', mat: 'Vermeil 18k · 2,5 microns', price: 85,
+      pack: 'photo-1625792508300-0e1f913a3a50', worn: 'photo-1633810543462-77c4a3b13f07' },
+    { id: 'serment',  name: 'Serment',  type: 'Chevalière à graver',    mat: 'Vermeil 18k · 2,5 microns', price: 89,
+      pack: 'photo-1654521883301-070279dd0ae1', worn: 'photo-1633934542430-0905ccb5f050' },
+    { id: 'solstice', name: 'Solstice', type: 'Médaille martelée',      mat: 'Vermeil 18k · 2,5 microns', price: 109, iconic: true,
+      pack: 'photo-1569397288884-4d43d6738fbd', worn: 'photo-1644613537735-a0226e8f865d' },
+  ];
+  const byId = id => PRODUCTS.find(p => p.id === id);
+
+  /* ---------- Images (avec repli élégant si une URL échoue) ---------- */
+  const loadImg = el => {
+    el.addEventListener('error', () => { el.style.visibility = 'hidden'; }, { once: true });
+    el.src = img(el.dataset.img, +el.dataset.w || 900);
+  };
+  $$('img[data-img]').forEach(loadImg);
+
+  /* ---------- Marquee ---------- */
+  const guarantees = ['Garantie à vie', 'Water-resistant', 'Vermeil 18k', 'Livraison 48h', 'Sans nickel', 'Retours 30 jours'];
+  const track = `<div class="marquee__track" aria-hidden="true">${guarantees.map(g =>
+    `<span class="font-display italic text-2xl md:text-3xl px-8 md:px-12 whitespace-nowrap">${g}</span><span class="text-gold text-sm">✦</span>`).join('')}</div>`;
+  $('#marquee').innerHTML = track.replace(' aria-hidden="true"', '') + track + track;
+
+  /* ---------- Grille produits ---------- */
+  $('#grid').innerHTML = PRODUCTS.map((p, i) => `
+    <article class="card group" data-reveal style="--d:${(i % 3) * 110}ms">
+      <div class="card__media relative aspect-[4/5] overflow-hidden img-fallback" data-cursor="view">
+        <img class="img-pack" data-img="${p.pack}" alt="${p.type} ${p.name} en ${p.mat}" loading="lazy">
+        <img class="img-worn" data-img="${p.worn}" alt="${p.name} porté" loading="lazy">
+        ${p.iconic ? '<span class="absolute top-4 left-4 bg-ivory/95 text-obsidian eyebrow !text-[10px] px-3 py-2 flex items-center gap-2"><span class="text-gold">✦</span>Iconique</span>' : ''}
+        <button class="card__add absolute bottom-0 inset-x-0 bg-obsidian text-ivory py-4 md:py-5 eyebrow hover:bg-gold hover:text-obsidian" data-add="${p.id}" aria-label="Ajouter ${p.name} au panier">
+          <span class="label">Ajout rapide — ${euro(p.price)}</span>
+        </button>
+      </div>
+      <div class="mt-5 flex justify-between gap-4">
+        <div>
+          <h3 class="font-display text-2xl md:text-3xl leading-none">${p.name}</h3>
+          <p class="text-smoke text-sm mt-2">${p.type}</p>
+          <p class="eyebrow !text-[10px] text-smoke/80 mt-2">${p.mat}</p>
+        </div>
+        <p class="text-base md:text-lg whitespace-nowrap">${euro(p.price)}</p>
+      </div>
+    </article>`).join('');
+  $$('#grid img[data-img]').forEach(loadImg);
+
+  /* ---------- Panier ---------- */
+  const KEY = 'orvee-cart';
+  let cart = [];
+  try { cart = (JSON.parse(localStorage.getItem(KEY)) || []).filter(l => byId(l.id) && l.qty > 0); } catch (e) {}
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(cart)); } catch (e) {} };
+
+  const el = { cart: $('#cart'), overlay: $('#overlay'), items: $('#cartItems'), empty: $('#cartEmpty'), foot: $('#cartFoot'),
+    count: $('#cartCount'), titleCount: $('#cartTitleCount'), shipText: $('#shipText'), shipBar: $('#shipBar'), shipProgress: $('#shipProgress'),
+    sub: $('#subTotal'), shipCost: $('#shipCost'), total: $('#total'), checkout: $('#checkout'), body: $('#cartBody'), success: $('#cartSuccess') };
+  let lastFocus = null;
+
+  function renderCart(newId) {
+    const qty = cart.reduce((s, l) => s + l.qty, 0);
+    const subtotal = cart.reduce((s, l) => s + l.qty * byId(l.id).price, 0);
+    const shipping = subtotal === 0 || subtotal >= FREE_SHIPPING ? 0 : SHIPPING;
+    const pct = Math.min(100, Math.round(subtotal / FREE_SHIPPING * 100));
+
+    el.count.textContent = qty;
+    el.titleCount.textContent = qty ? `(${qty})` : '';
+    el.empty.style.display = qty ? 'none' : '';
+    el.items.style.display = el.foot.style.display = qty ? '' : 'none';
+
+    el.shipText.innerHTML = subtotal >= FREE_SHIPPING
+      ? '<span class="text-gold">✦</span> La livraison 48h vous est <strong class="font-medium">offerte</strong>.'
+      : `Plus que <strong class="font-medium">${euro(+(FREE_SHIPPING - subtotal).toFixed(2))}</strong> pour la livraison 48h offerte.`;
+    el.shipBar.style.width = pct + '%';
+    el.shipProgress.setAttribute('aria-valuenow', pct);
+
+    el.items.innerHTML = cart.map(l => { const p = byId(l.id); return `
+      <li class="py-5 flex gap-4 ${l.id === newId ? 'cart-item' : ''}">
+        <div class="w-20 h-24 shrink-0 overflow-hidden img-fallback"><img src="${img(p.pack, 240)}" alt="" class="w-full h-full object-cover" onerror="this.style.visibility='hidden'"></div>
+        <div class="flex-1 min-w-0 flex flex-col">
+          <div class="flex justify-between gap-3"><h3 class="font-display text-2xl leading-none">${p.name}</h3><span>${euro(p.price * l.qty)}</span></div>
+          <p class="text-smoke text-sm mt-1">${p.type} · ${p.mat}</p>
+          <div class="mt-auto pt-3 flex items-center justify-between">
+            <div class="inline-flex items-center border border-obsidian/20">
+              <button class="w-9 h-9 hover:bg-obsidian hover:text-ivory transition-colors" data-qty="-1" data-id="${p.id}" aria-label="Retirer un ${p.name}">−</button>
+              <span class="w-8 text-center text-sm" aria-label="Quantité">${l.qty}</span>
+              <button class="w-9 h-9 hover:bg-obsidian hover:text-ivory transition-colors" data-qty="1" data-id="${p.id}" aria-label="Ajouter un ${p.name}">+</button>
+            </div>
+            <button class="text-xs text-smoke underline underline-offset-4 hover:text-obsidian" data-remove="${p.id}">Retirer</button>
+          </div>
+        </div>
+      </li>`; }).join('');
+
+    el.sub.textContent = euro(subtotal);
+    el.shipCost.textContent = shipping ? euro(shipping) : 'Offerte';
+    el.total.textContent = euro(+(subtotal + shipping).toFixed(2));
+    save();
+  }
+
+  function addToCart(id) {
+    const line = cart.find(l => l.id === id);
+    line ? line.qty++ : cart.push({ id, qty: 1 });
+    showCartView();
+    renderCart(id);
+    el.count.classList.remove('bump'); void el.count.offsetWidth; el.count.classList.add('bump');
+  }
+  function changeQty(id, d) {
+    const line = cart.find(l => l.id === id); if (!line) return;
+    line.qty += d;
+    if (line.qty <= 0) cart = cart.filter(l => l.id !== id);
+    renderCart();
+  }
+  function showCartView() { el.body.style.display = ''; el.success.classList.add('hidden'); el.success.classList.remove('grid'); }
+  function openCart() {
+    lastFocus = document.activeElement;
+    el.cart.inert = false;
+    el.cart.classList.add('is-open'); el.overlay.classList.add('is-open');
+    document.documentElement.style.overflow = 'hidden';
+    setTimeout(() => $('#cartClose').focus({ preventScroll: true }), 80);
+  }
+  function closeCart() {
+    el.cart.classList.remove('is-open'); el.overlay.classList.remove('is-open');
+    el.cart.inert = true;
+    document.documentElement.style.overflow = '';
+    if (lastFocus) lastFocus.focus({ preventScroll: true });
+    setTimeout(() => { if (!el.cart.classList.contains('is-open')) showCartView(); }, 700);
+  }
+
+  document.addEventListener('click', e => {
+    const add = e.target.closest('[data-add]');
+    if (add) {
+      addToCart(add.dataset.add);
+      const label = $('.label', add), old = label.textContent;
+      add.classList.add('is-added'); label.textContent = 'Ajouté à votre écrin ✓';
+      setTimeout(() => { add.classList.remove('is-added'); label.textContent = old; }, 1600);
+      setTimeout(openCart, 380);
+      return;
+    }
+    const q = e.target.closest('[data-qty]'); if (q) return changeQty(q.dataset.id, +q.dataset.qty);
+    const r = e.target.closest('[data-remove]'); if (r) return changeQty(r.dataset.remove, -Infinity);
+    if (e.target.closest('[data-cart-close]')) { closeCart(); $('#collection').scrollIntoView(); }
+  });
+  $('#cartOpen').addEventListener('click', openCart);
+  $('#cartClose').addEventListener('click', closeCart);
+  el.overlay.addEventListener('click', closeCart);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && el.cart.classList.contains('is-open')) closeCart(); });
+
+  // Simulation de passage en caisse
+  el.checkout.addEventListener('click', () => {
+    if (!cart.length) return;
+    el.checkout.disabled = true;
+    el.checkout.textContent = 'Sécurisation du paiement…';
+    setTimeout(() => {
+      $('#orderId').textContent = 'ORV-' + Math.random().toString(36).slice(2, 8).toUpperCase();
+      cart = []; renderCart();
+      el.body.style.display = 'none'; el.success.classList.remove('hidden'); el.success.classList.add('grid');
+      el.checkout.disabled = false; el.checkout.textContent = 'Passer en caisse';
+    }, 1700);
+  });
+  renderCart();
+
+  /* ---------- Newsletter (simulation) ---------- */
+  $('#newsletter').addEventListener('submit', e => {
+    e.preventDefault();
+    const input = $('#email'), msg = $('#newsletterMsg');
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value.trim())) { msg.textContent = 'Merci de saisir une adresse e-mail valide.'; input.focus(); return; }
+    msg.innerHTML = '<span class="text-gold">✦</span> Bienvenue dans le Cercle. Votre code : <strong class="font-medium text-obsidian">LUEUR10</strong>';
+    input.value = '';
+  });
+  $('#year').textContent = new Date().getFullYear();
+
+  /* ---------- Header : solide + masqué au scroll descendant ---------- */
+  const header = $('#header'); let lastY = 0;
+  const onScroll = () => {
+    const y = scrollY;
+    header.classList.toggle('is-solid', y > innerHeight * 0.82);
+    header.classList.toggle('is-hidden', y > innerHeight && y > lastY + 4);
+    if (y < lastY - 4) header.classList.remove('is-hidden');
+    lastY = y;
+  };
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  /* ---------- Reveal au scroll (Intersection Observer) ---------- */
+  const io = new IntersectionObserver(entries => entries.forEach(en => {
+    if (!en.isIntersecting) return;
+    en.target.classList.add('is-in'); io.unobserve(en.target);
+    $$('[data-count]', en.target).forEach(countUp);
+  }), { threshold: 0.15, rootMargin: '0px 0px -6% 0px' });
+  $$('[data-reveal], [data-clip]').forEach(n => io.observe(n));
+
+  function countUp(node) {
+    const end = +node.dataset.count, dec = +node.dataset.dec || 0;
+    if (reduced || !end) return;
+    const t0 = performance.now(), dur = 1600;
+    const tick = t => {
+      const k = Math.min(1, (t - t0) / dur), v = end * (1 - Math.pow(1 - k, 4));
+      node.textContent = v.toFixed(dec).replace('.', ',');
+      if (k < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }
+
+  /* ---------- Intro + Hero (GSAP) ---------- */
+  const intro = $('#intro');
+  if (!hasGsap || reduced) {
+    intro.remove();
+  } else {
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.set('.hero-line', { yPercent: 115 });
+    gsap.set('.hero-fade', { opacity: 0, y: 24 });
+    gsap.set('#heroMedia', { scale: 1.18 });
+    gsap.timeline({ defaults: { ease: 'expo.out' } })
+      .from('#introWord', { yPercent: 110, duration: 1.1 })
+      .to('#intro', { yPercent: -100, duration: 1.1, ease: 'expo.inOut', delay: 0.25 })
+      .to('#heroMedia', { scale: 1, duration: 2.4 }, '-=0.9')
+      .to('.hero-line', { yPercent: 0, duration: 1.5, stagger: 0.12 }, '-=2.0')
+      .to('.hero-fade', { opacity: 1, y: 0, duration: 1.2, stagger: 0.1 }, '-=1.1')
+      .add(() => intro.remove());
+
+    // Parallaxe hero
+    gsap.to('#heroMedia', { yPercent: 14, ease: 'none', scrollTrigger: { trigger: '#hero', start: 'top top', end: 'bottom top', scrub: true } });
+    gsap.to('#heroContent', { yPercent: -12, opacity: 0.15, ease: 'none', scrollTrigger: { trigger: '#hero', start: 'top top', end: 'bottom top', scrub: true } });
+
+    // Parallaxe des visuels éditoriaux
+    $$('[data-parallax]').forEach(node => {
+      const amt = +node.dataset.parallax;
+      gsap.fromTo(node, { yPercent: -amt }, { yPercent: amt, ease: 'none', scrollTrigger: { trigger: node.parentElement, start: 'top bottom', end: 'bottom top', scrub: true } });
+    });
+
+    // Manifeste : mots révélés au fil du scroll
+    const m = $('#manifesto');
+    m.setAttribute('aria-label', m.textContent);
+    m.innerHTML = m.textContent.split(' ').map(w => `<span aria-hidden="true" style="opacity:.14">${w}</span>`).join(' ');
+    gsap.to('#manifesto span', { opacity: 1, stagger: 0.1, ease: 'none', scrollTrigger: { trigger: m, start: 'top 82%', end: 'bottom 55%', scrub: true } });
+  }
+  setTimeout(() => intro.isConnected && intro.remove(), 6000); // filet de sécurité
+
+  /* ---------- Curseur magnétique ---------- */
+  if (finePointer && !reduced) {
+    const dot = $('.cursor-dot'), ring = $('.cursor-ring'), root = document.documentElement;
+    let mx = innerWidth / 2, my = innerHeight / 2, rx = mx, ry = my, shown = false;
+    addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      if (!shown) { shown = true; rx = mx; ry = my; root.classList.add('has-cursor'); }
+      dot.style.transform = `translate3d(${mx}px,${my}px,0)`;
+    }, { passive: true });
+    (function loop() {
+      rx += (mx - rx) * 0.16; ry += (my - ry) * 0.16;
+      ring.style.transform = `translate3d(${rx}px,${ry}px,0)`;
+      requestAnimationFrame(loop);
+    })();
+    document.addEventListener('mouseover', e => {
+      const onAdd = e.target.closest('.card__add');
+      const view = !onAdd && e.target.closest('[data-cursor="view"]');
+      const link = !view && e.target.closest('a, button, input');
+      ring.classList.toggle('is-view', !!view);
+      ring.classList.toggle('is-link', !!link);
+      root.classList.toggle('cursor-view', !!view);
+    });
+    document.addEventListener('mouseleave', () => root.classList.remove('has-cursor'));
+    document.addEventListener('mouseenter', () => shown && root.classList.add('has-cursor'));
+
+    // Éléments aimantés
+    if (hasGsap) $$('[data-magnetic]').forEach(node => {
+      const xTo = gsap.quickTo(node, 'x', { duration: 0.6, ease: 'elastic.out(1, 0.45)' });
+      const yTo = gsap.quickTo(node, 'y', { duration: 0.6, ease: 'elastic.out(1, 0.45)' });
+      node.addEventListener('mousemove', e => {
+        const r = node.getBoundingClientRect();
+        xTo((e.clientX - (r.left + r.width / 2)) * 0.32);
+        yTo((e.clientY - (r.top + r.height / 2)) * 0.42);
+      });
+      node.addEventListener('mouseleave', () => { xTo(0); yTo(0); });
+    });
+  }
+})();
+</script>
+</body>
+</html>
