@@ -88,3 +88,7 @@ Vérifié dans l'environnement de développement :
 - [docs/BUSINESS.md](docs/BUSINESS.md) — modèle économique et transparence
 - [docs/DECISIONS.md](docs/DECISIONS.md) — choix techniques et pourquoi
 - [docs/ROADMAP.md](docs/ROADMAP.md) — prochaines étapes
+
+## Autre application dans ce dépôt
+
+[`placard/`](placard/README.md) — Placard, un assistant d'annonces pour la revente de seconde main (Vinted, eBay, Depop, Vestiaire Collective). Application indépendante, avec ses propres dépendances et ses propres tests.
